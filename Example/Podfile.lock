@@ -1,0 +1,31 @@
+PODS:
+  - Expecta (1.0.6)
+  - MBProgressHUD (1.2.0)
+  - Specta (1.0.7)
+  - TUKit (0.1.0):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - TUKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Expecta
+    - MBProgressHUD
+    - Specta
+
+EXTERNAL SOURCES:
+  TUKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  TUKit: 3df72ff0c7509ce5ec08ab3216a2fe6eccea53e2
+
+PODFILE CHECKSUM: e573102f35888f7d6ec495d67ee77238e0b06d63
+
+COCOAPODS: 1.9.1
