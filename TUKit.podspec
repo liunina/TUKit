@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TUKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of TUKit.'
 
   s.description      = <<-DESC
@@ -14,14 +14,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-   s.public_header_files = 'Pod/TUKit.h'
-   s.frameworks = 'UIKit'
-   s.dependency 'MBProgressHUD'
+  s.public_header_files = 'Pod/TUKit.h'
+  s.source_files = 'TUKit/*.h'
+  s.frameworks = 'UIKit'
+  s.dependency 'MBProgressHUD'
    
-   s.subspec 'Macro' do |ss|
-	   ss.public_header_files = 'TUKit/Macro/*.h'
-	   ss.source_files = 'TUKit/Macro/**/*'
-   end
+  s.subspec 'Macro' do |ss|
+	  ss.public_header_files = 'TUKit/Macro/*.h'
+	  ss.source_files = 'TUKit/Macro/**/*'
+  end
    
    s.subspec 'Color' do |ss|
 	   ss.public_header_files = 'TUKit/Color/*.h'

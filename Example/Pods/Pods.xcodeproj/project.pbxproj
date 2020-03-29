@@ -9,65 +9,63 @@
 /* Begin PBXBuildFile section */
 		008A37B2A63BC1F3E33557FEF5BEE189 /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD306826F3DB39BD6AD57C6924B2AE3 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3EF135DE4634D6FA1E5EF15239824 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 1802732F217D64217F053D3A881349A3 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00DB8C4EB9638BC7FBDE1F49D73347BE /* TBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875C796CD6EE9DFB5DA387AAC978549 /* TBaseCollectionView.m */; };
+		01930337C9C4AC0A0E1D7B33BAACBBB3 /* TBaseCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12D347F7EC44471D8F9CD6252339F5BF /* TBaseCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		034047D37AAF453C5BDB35042ED7AC68 /* TTimeCountLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 813F05070DD7794273EABA365BE47F65 /* TTimeCountLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0475A9EA5F07D6B60E1135A35541C3C3 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F139CD985D6FA877B61DFADFC47E2D /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05BCAED08DADF67CC4711A102262D9AB /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B696441BF71E5D2FC007B54A0B25DBA /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		05CFF6618B87EDE2069D4C5D3DDFF9EB /* EXPMatchers+beginWith.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F601E41BC5FFE048415D8391766817 /* EXPMatchers+beginWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		06F842D617FB7015C5798852A4E3F359 /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5BA504F0B5F07DD8CEB3DA11F0D8A7 /* SPTCallSite.m */; };
-		07B95A2EA86E19A6E7CDD29E8492491C /* UITextView+TUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B934127F5A40E86F0221A759C5D6A30 /* UITextView+TUKit.m */; };
-		07DBCAC13D39AB9D3AF945F0D8DE522D /* UIImage+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A1316290ACC8170D8461038146DAEE /* UIImage+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C6B233A224782898E65157729C89D92 /* UIViewController+TUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 972E31FEE566C96395B0B20834F5F827 /* UIViewController+TUKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D20A848EB5313922CABA1747D9116A1 /* UIViewController+TUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BC1FAE976E9CA0F4EC5DF32E78F7C /* UIViewController+TUKit.m */; };
 		0DE0AA588BC61692033B67CFCE4EC742 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 378701395393342CD3D7F531BD949AB8 /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E8C54F997EEF97BF35FE834F0F5A45D /* TBaseTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 620FA41DCB14EBB5F391C2F7A42DE5C5 /* TBaseTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		114C2163DAE74196CAF6FA2E5FB633D7 /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DEF1C4A4B1085B570F5F73A8419A40 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1192467D92251C8CF24AFBF6FA3437A0 /* TLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9647265C1B2D606BB3CE22C9CAC53E /* TLoadingView.m */; };
 		12C14FE4834134BC916F8DD42B875D3B /* EXPMatchers+beLessThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F56FEA4BF0D634039A7B728E037254 /* EXPMatchers+beLessThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		140394F97EEF0A95AB171649249F211C /* EXPMatchers+beTruthy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE760637050C19CB2A15B83D0EB7DF4 /* EXPMatchers+beTruthy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		156EE06F3473F0AC2B3D7F6E211CE9CB /* TBaseTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = F14C55FDA88D4B82DB1599220D0F8F23 /* TBaseTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C0054801F96BA3329545B1FAA6A85E /* EXPMatchers+haveCountOf.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEE0DC55561E8B01753BA5677D726D2 /* EXPMatchers+haveCountOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		16424B6B4B4F628788D48993DC1C3436 /* TCollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C515D3F6D797935A48B3F4F986D2929 /* TCollectionViewLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1867113501C41AE03F515BD19280027A /* TBaseView+Create.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAFCEF3FE7020DA73CF1034CF85A383 /* TBaseView+Create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		166D202410D9E07648BA4BC9BD22BCC7 /* UIViewController+TUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E817311F8C552600AEA370C2973B1B51 /* UIViewController+TUKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F79E5E70CE20B3BD4EC89BBA4A9620 /* TCollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8990B69B62A8F22F6EFCD2EAC08F4F1F /* TCollectionViewLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		188A55E8570219DC971027460C2BCF1B /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B504B24F986E7DB332301FD3EEE023 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		18A905D14579BB4482C8CE7A8168AA7D /* TBaseView+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB8874B43D86F95B33FC8E5024049C3 /* TBaseView+Create.m */; };
 		19621E59AF2C3772FF6290740DB6EAB4 /* NSValue+Expecta.m in Sources */ = {isa = PBXBuildFile; fileRef = 245982B8E641E5B1C4B7016AF69E78EB /* NSValue+Expecta.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1B2619885B6A7478A4FBE102D5292BED /* TColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F4922F2DDCECF4E5F7E9729AFA3B0B /* TColor.m */; };
 		1CF5E91F1AE39E4CA72E7CB9DC066BC5 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = A9FAFA96775E87A719F5ECB438E01A07 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E5C8609B41F1500DD387A2DB39146CE /* TUMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = D24939C6E046F79C8C64279A0ACE6569 /* TUMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E65D8A29D553CFD25D102AC77708496 /* TTimeCountLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA6B96D3F4F514C3C5C4F9A07E70CA7 /* TTimeCountLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EADC33C44C47C293DB516AEF3D20676 /* UINib+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB58A13D7DBA8E31D4EC18E6353C15F /* UINib+Create.m */; };
 		1EDA4657EEF6B795B643063E05E8DC57 /* EXPMatchers+respondTo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B30F4B40AA6C3B15AAC4A5756D6C2 /* EXPMatchers+respondTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		20471DE376ACB94F0E144A26EFFCFD21 /* EXPMatchers+beSupersetOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20E2F4D976985ADCC0FC9ABD1E773 /* EXPMatchers+beSupersetOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		244D8552B11F2D1B417EBB82BBE9E938 /* EXPMatchers+beKindOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A0EB1D663593B35820B70D229337A /* EXPMatchers+beKindOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		258594675FA6FA4B90872375FF1B4856 /* TBaseTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18A07C7974C476E156B90779CD138DC /* TBaseTableViewHeaderFooterView.m */; };
 		25C2905BD04D69AB3CCA7BCC93D07AC7 /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 071508782C3A69A1D94F4AB84ABA001A /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2865B869496DB3AA8C84D7B2D38E63DB /* TConstraintHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CC208C1706E8FD8817508078FA26BB12 /* TConstraintHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28ED8A2DF2F3B6CAA21EE23B00998367 /* TUView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C87E563366D18D2C7352BFB71A3AD42 /* TUView.bundle */; };
 		28F23E68E55462EBC24ABF2F2F131255 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 3989A6B6546ADCDAA9FE06D8B8AFC80C /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29A7E4CAA4E1AB9932D5D9045FAB754B /* TFont.h in Headers */ = {isa = PBXBuildFile; fileRef = C2298F47027670D2F0D242D8D14EEDE6 /* TFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A46DD69C90BDFA0AD55A31D0F16A78A /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A9357C8D033BAD615DF6C0F0B7F457 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A993075734BBAE515136C3A9E3F8D1D /* SPTExample.h in Headers */ = {isa = PBXBuildFile; fileRef = A22EF0AE33DF35212EE3B4DFD8F0715D /* SPTExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE51A46545F52B9A9CA5EEA9F741FEC /* TTimeCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF01D40442F6850C6311CE2FCACE17A6 /* TTimeCountLabel.m */; };
 		2BDBAAED6B5DDF1AE1549226894F7165 /* SPTSharedExampleGroups.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9E28F4867CE50BCD442F79664FDB63 /* SPTSharedExampleGroups.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BFCCD2D052757EA67D9E8CE838F65E4 /* Specta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE012C7DB945CE65C3B3AA7151CC324 /* Specta-dummy.m */; };
 		2FED4B7E6410714C867AAEFCE317D308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B834E54FCF6E067DFA86785D9AA7043B /* Foundation.framework */; };
-		3045A33468DE07CEFD96D6F4B39D1B15 /* UITextView+TUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C22B94C950C4BC06125010BEF4799F07 /* UITextView+TUKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32279C05797A26D7C72FFFF9D894C3D9 /* loading_slices.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B45433C79C16663D73D77EC226442A /* loading_slices.png */; };
+		3131B9FD25F9CB75202C60596AE9362E /* TLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7934782AE2E6B0717D143B9F7AA6C928 /* TLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32762E6201C8909C32899F1EA489913B /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 428875C60AE5655E4B53F3049B106F15 /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EBE818F0F41CC0EA2270B977BD62C8 /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 42571B34BF0EE2FB546082AB7D426499 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3372164C22B301D4D5F1C9C7C6DDB25D /* EXPUnsupportedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B1460AAB9FAF9840E8E2A880C0553F /* EXPUnsupportedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		34940CEBD6F13F761E645F61E2F02079 /* TBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A555323C7C4902301433C43A5508F87 /* TBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3681AC7A2C3E52B5F6514D1560E13191 /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5BB3279000A366D3B10623917C1BE8 /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C2C9BEF3CBE652909B60F4C7CF30B8 /* UIViewController+TUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C455BCBFB11CDAAE706FD400484B726C /* UIViewController+TUKit.m */; };
+		37722BC5D2AEFB40966DA4D5017C6612 /* TBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDDC519EBC71B5488FDD0779EA428CA /* TBaseTableView.m */; };
 		388F4776C3F41DAFB70F885E88483675 /* Pods-TUKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD9125632F1B9A439A9851D610B388A /* Pods-TUKit_Tests-dummy.m */; };
 		38A289C0550F25C9EDBF6A54BABC5A18 /* EXPMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 879E933EF04DB48A6450BCC4BC2A344B /* EXPMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38BAF734E5FC7AD8BDEA971E10574EB4 /* TUKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED141057CF42A2DD6449731D18D7A720 /* TUKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		392F60B210545F92498C2F18BDC31DAF /* TTimeCountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D1ED060B9667D06094AF5D27C330A9 /* TTimeCountLabel.m */; };
-		3A9A3DA8340700178FC81611956D2F3B /* UINib+Create.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF36382230F2E02C638030B29704DA1 /* UINib+Create.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B2A59E466E5E952E51862D462BD0A6C /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E4D0F5B82A03650BCCCA0F2AD36758 /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C5E21003A743A7AE12E2ED6A68791C9 /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D109C2AC64C4AFAA689743C93050976D /* SPTExampleGroup.m */; };
 		3C82710DF39F627A44AE7067B65F92C7 /* EXPMatchers+raise.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D78C0FFB3A5B0F717507AF0528A99C /* EXPMatchers+raise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CD8C46A6067AD9E4E9D536E34C69380 /* TLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B83D53FE55552AC0DEED998FE6D4D3A4 /* TLoadingView.m */; };
+		3D0D779658FD9284759A549F63AD294E /* loading_slices@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB4E3243FCF43B07568EC94FF5D37118 /* loading_slices@3x.png */; };
 		3DB6607AA00EDF662D4328EA4F9C44EC /* EXPBlockDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BD84010D2799A0E16DDDDFDD766608 /* EXPBlockDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		416D3BE841B08CED03D16649957ECB10 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B16B4E6F65D2ECAA2371B9AF686ECB /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41B490A5CB6565458F1F507A8AD0FB45 /* EXPMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = F09A0E31F58CFEDB7FD243982C719120 /* EXPMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43D4A1B0618A0A0C8E00B5F18FBF6E66 /* TBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 280DAC5043C2C64E0E5E2FEAC210DE5A /* TBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46ACAF12638940470981FA6689B0469F /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 320BF4DF685C51D4F344B27CC2AFCD7A /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		47843E86FB855A84D03F08FA99E8253B /* TCollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 532239810505696156ACB9BF4D4F891B /* TCollectionViewLeftAlignedLayout.m */; };
-		47BD57A6CC33956CFD8D7A0DC98DB65C /* TBaseTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A662CF493A45A8AE42F17492AF8BE /* TBaseTabBarView.m */; };
+		497453DCD6A2104FA34A1F0A7E8C2C50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B834E54FCF6E067DFA86785D9AA7043B /* Foundation.framework */; };
 		4A03F7E68886AE6A13DFC35E9A9B942A /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = 611931FA983644C50D50796A69D25462 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B01D8793C8F10AA4D5F7417589FD001 /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 951AEA37BB94623EDBE740FB5C518505 /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B3BACC5CE28895C902D0974B355C47F /* TBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EBF2129DE82E1E7E067846BB7EABBDF /* TBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B2D7BF9248E084401C38CCEF9472C99 /* TBaseTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD256D2F4D6D5B35410C412C62EC7D45 /* TBaseTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C17C1BF829CB6B8C12C7B01B7BE0FA8 /* TBaseView+Create.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9192B7E92CEC0383E3F54851A52C21 /* TBaseView+Create.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CD00C2DDD1130268D57492C92768C2D /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EED954F71EFC8E6272180452204A4F0 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D48EA2D9F127FF844FE61016D25DDE0 /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B41E8FC5F672D3ACCE9D262B28F593 /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E7928EF9169E1DE84CBF429162A4128 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = C972BAEAE35F49878DFB0916CF20647B /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -77,113 +75,116 @@
 		521CCD99D4003505D4B65A4131BAFB22 /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FF95E49D27A166E6053428B206FB29EF /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5242CFE182637D4BCCAC9E0BCC4483C4 /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D25838697B5AD842EA3E2B14FD48F5 /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		544C6D3A8C488AF19C2073E1E7281FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B834E54FCF6E067DFA86785D9AA7043B /* Foundation.framework */; };
-		5614BAE0AF726CE23F0E568EB1DEC91E /* TBaseTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE570B6188780E56F94B80F2E9F9A204 /* TBaseTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59D34E8065607E956AC2DC046E76B743 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A7DF3BB7B1ABD84564BDB96A8E9E11 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C6754FDD1DFAD63B3689EE5A7897F01 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 52AAFB484E4786D890BEB4685682648D /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C8A35F9659B4241B5949C9056269389 /* SPTCompiledExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DC8590079ECF0707ABDB491D2B1800 /* SPTCompiledExample.m */; };
 		5DD71838737687E6FA4583D98B08D7D4 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A8CF8BE3345D679575C31E24872C60 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5E1CED2DE5A2E837EA94B2B7183DE3D7 /* TBaseCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F21BEFB2CA7F9D8F868048B0F99D07C3 /* TBaseCollectionReusableView.m */; };
-		61B40404417CB6BB5E86DFF4919CA716 /* TBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E74DF368485A63E8B58D6823F03A39F /* TBaseCollectionViewCell.m */; };
+		5E714B8DDDB8E4C2708862120685978B /* TBaseTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E601FFBDEB9EDE8F028BFAFA71C61175 /* TBaseTabBarView.m */; };
+		615E9316AD1717A49FC25E974A33B9D2 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D841442104651119228B8E05B9EADC43 /* MBProgressHUD.framework */; };
 		61CA94EF2639807466427720DA2091C6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 849525FDA0EF88BBA933FA4A84E9B485 /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6239AF86F5E3577986D250BEE19D8152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B834E54FCF6E067DFA86785D9AA7043B /* Foundation.framework */; };
-		62BDF39248AC956A44AF56DB28AC7EC2 /* UIView+TUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6A344C747D8439609972B968282669 /* UIView+TUKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63A0BE650141BBE5D9F57E42A36C7CE5 /* SpectaUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E191736CC4F73C3801A97480D212F821 /* SpectaUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		646C976C0E8F758B7DB3A70AFEA1817A /* UIButton+Addation.h in Headers */ = {isa = PBXBuildFile; fileRef = 22DF84A17EFAF2A56BD40AACB3287BE1 /* UIButton+Addation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64F46B6A8DBA885AF570A54A082D1BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFBB6B1F4C36BD5C7BBD246B836AC96 /* QuartzCore.framework */; };
+		6607CE48F1DA3A88614E3ED4BB319E2B /* UIView+TUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BE8F20E8E2B1FCFE15F4D4C1EABE56 /* UIView+TUKit.m */; };
 		660F79D9086A7962E1FFFA101802E8E0 /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = A43CDF07DB7171441A2D27F41857E5C9 /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66ABBD694E306E452A0D3DB3972FA429 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEC97A081F9A46BA0D23658273716DA /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66BCEC2D03B513C4E94EED9203D20B5A /* TUView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C87E563366D18D2C7352BFB71A3AD42 /* TUView.bundle */; };
 		66F2D351725FBC1A2BE976225B51DA31 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F85FCD0A11A12C121DAEFD41DFCF0DA /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		697198696F9CE4786D75F53B63FCFB75 /* TBaseCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = C239391104949BB0A0A477512197E373 /* TBaseCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69F28F7D5D79DB74FECEA17BD2BB1D7F /* TFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9578A00C0AE85D974ACB99BF03AF7450 /* TFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		683035C156788D8CEFA8E2BD752CA684 /* loading_slices.png in Resources */ = {isa = PBXBuildFile; fileRef = 4094B55F00F09D9440FEDFD775E64F31 /* loading_slices.png */; };
 		6B575D5C03624D5A253D6C128F3768DC /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5BBB18B48C0DC9D9CBE6E456330BC2 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B5E990838B241B56A5F19E90FEFCD72 /* SpectaDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C8F9E8C44E028B08C772630921E312 /* SpectaDSL.m */; };
 		6E8A45EF6CD46D90A634E1E9163E562E /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = C23DC37F2BF39F16C91B5CA37C7DEFC7 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		70EE1C774C978E1876AE6CA1224E897D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B612CA73682E336595CDFA7FB1F8D7 /* MBProgressHUD.m */; };
 		72643F3E0BB03C0517C40CEBE9DF9316 /* Pods-TUKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC48252E4C9042E99F01FAA942DB8C48 /* Pods-TUKit_Example-dummy.m */; };
+		762ADF5FDDC4C07AC6A3DCDC9E644452 /* UIButton+Addation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F514CD6F3EBC602BFC675A5935D88 /* UIButton+Addation.m */; };
 		766A29A5DB099C8ED3BC29C9610E8C75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38CEAC8349BD5E1FF49E96C0C813C1B /* XCTest.framework */; };
 		7709CF64039955B3BAF42CDA38E0F96F /* EXPMatchers+contain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE1BC134D15B4EE305409C940A62CE9 /* EXPMatchers+contain.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		777DB2CAF42F78F06C61F9A4AA3AD09C /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EEA83BCB483F0E1943C8552836D7A63 /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7967AB2E31F5D064244EB23735D0B3E8 /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DD76D62838E442FCE25F97A5CD6A9BC8 /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		796B976C7EFD25F8DB022BFCF58A9527 /* TUKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E00D81E4E9A0AC11EFF299389D676D02 /* TUKit-dummy.m */; };
+		7AC3ABFDF58B754FA4E7C12501AAE238 /* TBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1845CCB7D4D1699EF3666985C209E3 /* TBaseView.m */; };
 		7D156B7C42133DDE9CAFFE75C433E51D /* SpectaDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CDE3179748C6DD03A438B3A90969EA /* SpectaDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D40DA4808BC64C8740F5B8D6AB64FD5 /* TBaseTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E52F3C4CFCF2031E6D14F67A77E12EBF /* TBaseTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E943519F3F8E1F7BECDCB0E0D2BEE93 /* TBaseTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 671E5A271B2373A30EC6559352D9A5A8 /* TBaseTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80A4EE59B7359F7D31DB387AAA894290 /* TConstraintHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D84E69A9C602748B7FBF746CB9ECFCBB /* TConstraintHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F061DEF6DC65786AD7301D403716B05 /* TBaseView+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 275364BC48DDBB1E54C72B6F0C720B86 /* TBaseView+Create.m */; };
 		80DBEE42A84F67E17E810F1FE94FF793 /* Pods-TUKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 423E370F906FD43E2172FE06C3E61148 /* Pods-TUKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80E479781BCF0EC67D40DFF1F4723215 /* SPTSharedExampleGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 52505EB55689BECF74CD28D98326DDFF /* SPTSharedExampleGroups.m */; };
 		81B9E2F21B1EF9FE4E769103108DEA8A /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42322B7CD5209379C11A643939EC0995 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		821F025A006CB157497E83C0EC102052 /* Expecta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C33999B60CA5057252695D1EC0E1098B /* Expecta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8445434A34DF67A97E95FCEA502A2990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B834E54FCF6E067DFA86785D9AA7043B /* Foundation.framework */; };
-		86A2BBCBF22AAD09075263BC2A6F0188 /* TBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 032215E3C501DAA7A825CD4DBD204CAD /* TBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83407C28EB9ED511E742041C38E2175E /* TBaseTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 686CD8D3336EBA3A1120CA5AAAC36489 /* TBaseTabBarItem.m */; };
+		8560BA2DBDD939A68BE9111FE2BB7463 /* TUMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9B2423727AEDA05B5B35D7D4F5BC29 /* TUMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86A361F05B2052C2443D70F3C63018F8 /* UIView+TUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B002591825387AD28070838FF814E03B /* UIView+TUKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86AF47F4D2229BC576C54BA1FE1DD940 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E022B87DECE1267F1A9442D71EC929A /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		873165886F20870B205EBE37F8185546 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 684500AB63672DFF347663A21D1C0B25 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88B1F2202F8E1BA69FF9FFD599C71A53 /* XCTestCase+Specta.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D04277848541F0D44BF26BEC72741B /* XCTestCase+Specta.m */; };
+		8A451C8401371C208E3ADA04B1B28B3D /* TBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB7EE41F79420EB2570B890540AD3AF /* TBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B8CB2F1361DD1EA4711D54F596569F4 /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 6489890977FF6077A08C7B9A938F1EFC /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC96BB01A1A7609446D7BBE3DEC86BA /* TFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF795A5C30BFDCCF294285DAE74B86B /* TFont.m */; };
 		8E79D808BDDDDEDE44F06E9755CF3F4D /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DAF095F8062E3A45E7E1FC2E3840AC /* SpectaUtility.m */; };
+		90792E187DB49FB7EB2545145C6F0134 /* TBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF5E0F742AE2FCF057F9DF07564FB9A /* TBaseCollectionViewCell.m */; };
 		91F08081D0286CC0733C2D5A9B4A8F32 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F50A208888C1A5BCD327CBFF6B1B6B9 /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		93076F6F0B96EAD80F67BC760A3FC0AD /* SPTTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CC1CCF9170259F90C9411289560283 /* SPTTestSuite.m */; };
-		93AAB586888C3D6CED29EBFFCC704C0A /* UINib+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7F0D69E099B5489C3CFACF75A6AE64 /* UINib+Create.m */; };
-		94E09DC9C06EA80B2B630680B7AE5F17 /* TUKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E908DC3E0A487F30EAED96093F1324 /* TUKit-dummy.m */; };
 		9501262D83639D5412AC3A86F528B63D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B834E54FCF6E067DFA86785D9AA7043B /* Foundation.framework */; };
-		95EB106BCF18916D2AB48214663B9E85 /* UIView+TUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A88395F94677B855D617CBD3333AB10 /* UIView+TUKit.m */; };
 		96BC54118F99CACBCEDE0B64784E0737 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7114DA3739CD7EBB03A5039848C7B10B /* Expecta-dummy.m */; };
 		97D9A825385A35B046B1DFF01F24136F /* Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = C774DBA0B2F03EBB898BAFB2A173C13F /* Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9AC1A3902FC9162C9B432B411928B215 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4FBB5F20FDE48EBC03B7D76607418 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A297B3335D4DD46D955157896936E611 /* TBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CA52EB507CB25BA80D4BC66050734B /* TBorder.m */; };
+		9ACFB79EBEF037C382BEC63C3EBDA241 /* TColor.h in Headers */ = {isa = PBXBuildFile; fileRef = A5958BE362B790763B40161CF7993569 /* TColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC9B87F1098DFDBA17A3ECE35207741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2080DB5D57A71274B6A8EFEDBE615F4 /* UIKit.framework */; };
+		A276AEF185C88A7A08491B17A4C7A1ED /* TBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9791CA62C5CD0A5F633014D72BF291A9 /* TBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A601994621C892656F60D1A1292A9565 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733D4054DEE00670A331BAFCCBBEAB4C /* CoreGraphics.framework */; };
-		A72E754F5E26115DA7CF976BAE276346 /* UIButton+Addation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DCF9827D931C819359A7000E133C1 /* UIButton+Addation.m */; };
+		A78C656C80B0DEC076453FD982F47FA3 /* UINib+Create.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2082C57645A292B6DC32A72F045E4D /* UINib+Create.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC02302D9A62277CA0905A4D8CA3646B /* UITextView+TUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FFE907BEF3384A889BDBCD10F24E94D2 /* UITextView+TUKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACBDE7479CEDFD9F3261E26D6B1015FC /* EXPMatchers+haveCountOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE9D6F97C99369DB8177B813216577C /* EXPMatchers+haveCountOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACC924902872D30AE427B07102B8C2B1 /* TBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44382332A76D79CC4C56F6E25D07DB8F /* TBaseTableView.m */; };
+		AF45C2E7C53FC199E98F366F58408DD6 /* TColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C06BC4C009AEB74F6067717679773D98 /* TColor.m */; };
+		AFC4A47CB75B28AB785785105F69ED0D /* TBaseCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3C01C9936C1982637BD13569A8C037 /* TBaseCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B025B7CCD848D7FB547328455E7FBFD8 /* TBaseCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8E5814370152DCFDAE8EE6BECA843E /* TBaseCollectionReusableView.m */; };
 		B0556227077A1AEED50A9562603FCF05 /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EDB90FBEFD102FFC9F0A3080F0F12D /* SPTExample.m */; };
 		B24C0951E730C8D7B6539598555A0126 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 8556078EDD361D821EC3FA90F47A2F2D /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B27CA77724EE492D67D5A6EEF3C04B83 /* SPTSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C6EDA9507EBF25C2D3D47AE9CA344 /* SPTSpec.m */; };
 		B31E1ABB0DF9F6E7C3B8BEC90C04FCBE /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 074A4C4B48A40154433AECE465D59D8E /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B4ED7DE053C66F05E9EA61CB9C64C92A /* loading_slices@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5621455C38325347465C4917A57682E /* loading_slices@2x.png */; };
 		B5596C58EE23B7C7BCE850A4C6679F1C /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B2325644D1035C5363C73187387858 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B628F2BB909FBE9D533C0C6D382BAA9E /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7949C680B1C407F92F3BC8ED5F4927E7 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B999DEBC999F335CC8E6C471F942F93D /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = 71583F788BEA684ADC5D574D39C04695 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BBE30A33C548B627C1EACE325561649B /* TBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F904031C10F0D3BC5A7704DABDD411D /* TBaseCollectionView.m */; };
+		BCE5303742D60A6C5C17D5652F4A2C03 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 72788D8EFB67F0C0C69AD92CC8C6759D /* UIImage+Addition.m */; };
+		BEA81D5E429AFD93777961A9D796E07A /* TBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 929B185625C1092E44E6156658CAE198 /* TBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1391CC6EFB41634C91D777EEC078FB /* TBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF7916E2F927562729DC4A11FE7BA5 /* TBaseViewController.m */; };
+		BF4EB6C66FA186AF49555A23A9F81CAA /* TBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6781833916BE6B1410E237D960206C /* TBaseCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF8DB126FD47CDD0145F8794B14BAB1B /* Pods-TUKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5635FE9F1C88AE243909F34AEE890B42 /* Pods-TUKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0727D2F92B8E77F2EF8ABCE2FE23BCA /* TBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D04DEA9BC3174B7B8008AA62BB88E4 /* TBaseCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C086824CEEDD952FAF0311B7FD8957FB /* SPTTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F1CBADEB675151B239475EA15F0B6D4 /* SPTTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C18FBD6CD221CAFD1AF15CC99A48CB84 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = FB44C2EC95B98D664446C1612A33C605 /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3F2057ECABF1274D2F7918496E33716 /* UIImage+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = E34E1EF31EEB26B377759848C6265B0D /* UIImage+Addition.m */; };
 		C4632B64DD0F3ADB3BB829A6EBC322E6 /* EXPMatcherHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D66762BE9935C4BF191E17E7934296 /* EXPMatcherHelpers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C4F5E7F5A4E3ABBCCC26BF0BE6DE928F /* TColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FFC6C94B10010692041F0CE8B4805A /* TColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C768061A897112191668B071E3564550 /* TBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 534119AA7B6D8D03CB2260542305D286 /* TBorder.m */; };
 		C86AC684A3B10B92FDDF2340F7A3ADD4 /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22648D04C3B8E39D7CE2A3B64A53BE63 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9CFEA96E4FA02883D1E3651365F1239 /* TBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D58975D6CA782A8145C022A7156E715E /* TBaseView.m */; };
 		CAEE0E44BC37459BD49C0B1D626B0477 /* EXPMatchers+postNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E682C91CE1F18626FDA4C92195D32A1A /* EXPMatchers+postNotification.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CB3708378F771F7265F07938DACD06EF /* TFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A56E605782FF445B8D1926DF2E1BEE /* TFont.m */; };
-		CC6E9ADF63B929ED931E2CF14905273B /* loading_slices@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72E1F525D2B304E68657908655BDE79E /* loading_slices@3x.png */; };
-		CD3653F37670523604C3EEE6468D0E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2080DB5D57A71274B6A8EFEDBE615F4 /* UIKit.framework */; };
 		D327EEB8522F6389513EB84ACF12F242 /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = 2846CC994DA4D0915F754DE300E0294D /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D5C3E91A2121AE27F99028292B9436A8 /* EXPMatchers+postNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0F81B9642BF7FB68D54575280D3027 /* EXPMatchers+postNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9A50EB9B546B3F4EC272DA647F45D71 /* loading_slices@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB68FFFE751595F9031B931C9D614B44 /* loading_slices@2x.png */; };
+		D793DD1ED8A1A5BAFFB2E8CA24BF217E /* TUKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DDC619C9710F5AB9F804BE1CD9D3BB /* TUKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D96D62491ECD3A3024B6CEA30875F36D /* TUKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9BED4500D5D2D9F9CDE89321579DCF3 /* TUKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DABF20F73D27572CD97071A6D4DB9004 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C58F03BC14CCA2043EDF5BE412732EAD /* MBProgressHUD-dummy.m */; };
 		DB3C194E927FF147C0B12238CEB0B51A /* SPTExcludeGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A19D6886420EE5B12368F01C70D395 /* SPTExcludeGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFF33BEB222CF58005C06FF0CD556DF /* EXPExpect.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B4C5480B40BA261344081A3EEEA408 /* EXPExpect.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD4A8E41DE6E0E48E8EDBEC0A6DC21F9 /* TBaseTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE31EC7C790F63DB441F9EA276FCDF /* TBaseTableViewHeaderFooterView.m */; };
 		DD76BF48AC9E8896D8EDDB44A44F10C5 /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9B68E0C04251E7AE833F56E1129223 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3FA3B98CD73AE4E5C0FA57F77EA6D7 /* SPTGlobalBeforeAfterEach.h in Headers */ = {isa = PBXBuildFile; fileRef = B97B83C06CFD8C7E9A1A61F421143BE0 /* SPTGlobalBeforeAfterEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE7FC5D8F81CE893DB6EDF99865350C5 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = AF367EBC720B24C98704702A5A14589C /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DF61D12F021437F03E2BEE0E37C93FFA /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D841442104651119228B8E05B9EADC43 /* MBProgressHUD.framework */; };
-		E0B1E533BF1D1312D802E01F61FCC2A0 /* UIButton+Addation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AFC011E5B2C7C4793BE50D926137DD /* UIButton+Addation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E15344B2F635367A7E1AC45BE1B9757B /* TBaseCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5B3AF5A43F8DDC6ABB17A023F7E81F9 /* TBaseCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E17F7A5F0B6750BA0D91C08863A4244B /* TBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C9933B8E8E53CF765E148EF03F1916 /* TBaseTableViewCell.m */; };
+		DEBFFA80F6E09D7C5FCF0FB4C51A1302 /* TConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D3795CC53C7A49A850BBABE42440B40D /* TConstraintHelper.m */; };
 		E2058F4A0E7638E420DE96F8DC17AAA9 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 6969CD32C692DA84573A6685ED5C111D /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E791EEB9E7DA8C5DBDFF80A2BA7A6A4F /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = F9E5F2D57F79753C1DE4743E40C7B5E3 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E969F8D679A40C630D2E855651A49D90 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDEC6602BF26655877BD52BFBE60545 /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9DED320022A4B44D450AB3AB433A449 /* TBaseTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BC69A0DFAE264566E45DEE0D34347E2 /* TBaseTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5EE149F1DBB4402FD663CB4DE8BD3C /* UIImage+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DC9EB89A4019F12936E7390CA34EEB2 /* UIImage+Addition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB2A4C29BE958CCB03B3FD9FAB927F1F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CC136329DE9D1E657A6CA4B768397E14 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC57F974317D76B799CFE2A018B5F9E2 /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CE2F9FEC4BDB2D1BC6FD49EB58AED7 /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F04814F5C6C3C54E366E68CF7E86CB37 /* TBaseTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B96499FA2B10888315C1458F77D6B1 /* TBaseTabBarItem.m */; };
 		F31CCBB90D75D9E5A83545FD95954FFA /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = FD896640FA182BB5C4D6C04079F011D9 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F3EDE6D241EE2A6D0992A24ACDDBAB35 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0DB44071BE2033E070A217673B247 /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		F44845BFE68FDB9D32C2C4B2C18FEAFF /* TBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03214607D843023335D903256A824588 /* TBaseViewController.m */; };
 		F4591B9C7F70268A3F94B40ADDBA5202 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DB9611ED66D0E8DDE77B6B21EDFFFC /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		F67506E4C6F04D7559BE5B3CB1527F53 /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C792467D81930244BE2E6B2276680B8 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F72ABD893C74A6F042F36D53827962AD /* TLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 13CFB273B28DF225FE8F98313D2DF559 /* TLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0890D59056DB07032A23E9045ECAF4 /* SPTCompiledExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BAF4B19346E912DAD3C05EC9D5C235B /* SPTCompiledExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBA2C648522BF4041AB6D67C6E3B5279 /* TConstraintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B94E0BDDD4938A1231DFCD9F759F75FC /* TConstraintHelper.m */; };
+		FA1529A757C76E4AC7CE45D9D53D315C /* TBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B115C9B83484EA3A9B9502441E48483 /* TBaseTableViewCell.m */; };
+		FA91A14389D44DB5B5DC0F179D36665E /* TBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C33BE25AACB188F0A966AD4E7323E6 /* TBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBC9734FF84807AE5347B2196D7EBC6D /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DACD796BE71D333104F6AAE81C562F2 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC36BEC2B03EE7405ECFA84AC85943C0 /* TBaseTableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CDC457CE1EB2930C4C1FF027E93A108 /* TBaseTableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD346E383D0F5BF7767AE8576C69289 /* UITextView+TUKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE6B84184D4769DD053313B8A030D32 /* UITextView+TUKit.m */; };
 		FF0EE7E6F869E55DA268F25622674EB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B834E54FCF6E067DFA86785D9AA7043B /* Foundation.framework */; };
+		FF6FDF543DBFEC894CD7B860CCB27B88 /* TCollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9563F48412C0CAE8FE360F6A0453C457 /* TCollectionViewLeftAlignedLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -194,19 +195,19 @@
 			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
 			remoteInfo = MBProgressHUD;
 		};
+		1547ED8E69277D92A3B18E2E0B3A6343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89CCA3E89513DDD2E6E4A77D0ADD3FF2;
+			remoteInfo = "TUKit-TUView";
+		};
 		26DD46F55705A6DFEB80EE6DE265F4D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B950A30857215BB5BFE7DB66F6588952;
 			remoteInfo = "Pods-TUKit_Example";
-		};
-		294CD97327C15B04754399CBC5196046 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 89CCA3E89513DDD2E6E4A77D0ADD3FF2;
-			remoteInfo = "TUKit-TUView";
 		};
 		3840931323F66BA52DB3810042000C78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -222,7 +223,7 @@
 			remoteGlobalIDString = F8676010755CF1530FC02DA9A0D8822B;
 			remoteInfo = Specta;
 		};
-		6602FFD4A90EB6B7ECEF3AB1C3B67563 /* PBXContainerItemProxy */ = {
+		63D67BAA86049FF7ABA4214E44B9CF36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -239,132 +240,132 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03214607D843023335D903256A824588 /* TBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseViewController.m; path = TUKit/ViewController/TBaseViewController.m; sourceTree = "<group>"; };
-		032215E3C501DAA7A825CD4DBD204CAD /* TBorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBorder.h; path = TUKit/View/TBorder.h; sourceTree = "<group>"; };
-		05D1ED060B9667D06094AF5D27C330A9 /* TTimeCountLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTimeCountLabel.m; path = TUKit/Label/TTimeCountLabel.m; sourceTree = "<group>"; };
 		071508782C3A69A1D94F4AB84ABA001A /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		074A4C4B48A40154433AECE465D59D8E /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		08F7F0770B4878B9883B87DCD8569CB4 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0947A77D44404C47A207943E3F111AAF /* Expecta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Expecta-Info.plist"; sourceTree = "<group>"; };
 		094FBAB3F6ACC23BF4FB66B0ED2F4B59 /* Specta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Specta-Info.plist"; sourceTree = "<group>"; };
-		0AA6B96D3F4F514C3C5C4F9A07E70CA7 /* TTimeCountLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTimeCountLabel.h; path = TUKit/Label/TTimeCountLabel.h; sourceTree = "<group>"; };
 		0C36F97F3060EE9189804F2CCA4AA228 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		0C9A93592AA10FEBEBB4A039BC05FF21 /* Pods_TUKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TUKit_Example.framework; path = "Pods-TUKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF7F7CA164A60F5D62E541359EF98CC /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
 		0DACD796BE71D333104F6AAE81C562F2 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
-		0EB8874B43D86F95B33FC8E5024049C3 /* TBaseView+Create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBaseView+Create.m"; path = "TUKit/View/TBaseView+Create.m"; sourceTree = "<group>"; };
 		0F1CBADEB675151B239475EA15F0B6D4 /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		12B4C5480B40BA261344081A3EEEA408 /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
-		13CFB273B28DF225FE8F98313D2DF559 /* TLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLoadingView.h; path = TUKit/View/TLoadingView.h; sourceTree = "<group>"; };
+		12D347F7EC44471D8F9CD6252339F5BF /* TBaseCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseCollectionView.h; path = TUKit/CollectionView/TBaseCollectionView.h; sourceTree = "<group>"; };
 		15B13B063AA97C48C9010C298AECBDDA /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Specta.framework; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1802732F217D64217F053D3A881349A3 /* EXPMatchers+endWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+endWith.h"; path = "Expecta/Matchers/EXPMatchers+endWith.h"; sourceTree = "<group>"; };
-		1875C796CD6EE9DFB5DA387AAC978549 /* TBaseCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseCollectionView.m; path = TUKit/CollectionView/TBaseCollectionView.m; sourceTree = "<group>"; };
-		18BE31EC7C790F63DB441F9EA276FCDF /* TBaseTableViewHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTableViewHeaderFooterView.m; path = TUKit/TableView/TBaseTableViewHeaderFooterView.m; sourceTree = "<group>"; };
 		1BE1BC134D15B4EE305409C940A62CE9 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		1CA20E2F4D976985ADCC0FC9ABD1E773 /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
+		1D8E5814370152DCFDAE8EE6BECA843E /* TBaseCollectionReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseCollectionReusableView.m; path = TUKit/CollectionView/TBaseCollectionReusableView.m; sourceTree = "<group>"; };
 		1DC0DB44071BE2033E070A217673B247 /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
-		1EBF2129DE82E1E7E067846BB7EABBDF /* TBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseView.h; path = TUKit/View/TBaseView.h; sourceTree = "<group>"; };
+		1E1845CCB7D4D1699EF3666985C209E3 /* TBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseView.m; path = TUKit/View/TBaseView.m; sourceTree = "<group>"; };
 		1EEA83BCB483F0E1943C8552836D7A63 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		1FAEF1C9A6FF1E606DF5323A7BAAB096 /* Pods-TUKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TUKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		20D66762BE9935C4BF191E17E7934296 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		22648D04C3B8E39D7CE2A3B64A53BE63 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		22A8CF8BE3345D679575C31E24872C60 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
+		22DF84A17EFAF2A56BD40AACB3287BE1 /* UIButton+Addation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Addation.h"; path = "TUKit/View/UIButton+Addation.h"; sourceTree = "<group>"; };
 		245982B8E641E5B1C4B7016AF69E78EB /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		25B2325644D1035C5363C73187387858 /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 		25DEF1C4A4B1085B570F5F73A8419A40 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
+		275364BC48DDBB1E54C72B6F0C720B86 /* TBaseView+Create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TBaseView+Create.m"; path = "TUKit/View/TBaseView+Create.m"; sourceTree = "<group>"; };
 		27F29E3B9BBAE2D48017ACDAB3F49FA7 /* Pods-TUKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TUKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27F56FEA4BF0D634039A7B728E037254 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
-		280DAC5043C2C64E0E5E2FEAC210DE5A /* TBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTableViewCell.h; path = TUKit/TableView/TBaseTableViewCell.h; sourceTree = "<group>"; };
 		2846CC994DA4D0915F754DE300E0294D /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
+		28C33BE25AACB188F0A966AD4E7323E6 /* TBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseViewController.h; path = TUKit/ViewController/TBaseViewController.h; sourceTree = "<group>"; };
 		2B696441BF71E5D2FC007B54A0B25DBA /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
 		2B9B68E0C04251E7AE833F56E1129223 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
+		2C9B2423727AEDA05B5B35D7D4F5BC29 /* TUMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUMacro.h; path = TUKit/Macro/TUMacro.h; sourceTree = "<group>"; };
 		2CEC97A081F9A46BA0D23658273716DA /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
-		2DEECBAB463FB26B6DEF36E078F43B3F /* TUKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TUKit.xcconfig; sourceTree = "<group>"; };
 		2F4C264AF725F5E782FAE6DD42153E87 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		2F50A208888C1A5BCD327CBFF6B1B6B9 /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		2F85FCD0A11A12C121DAEFD41DFCF0DA /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		30B504B24F986E7DB332301FD3EEE023 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
 		31084A3477E16690594F020E7718DCD6 /* TUKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TUKit.framework; path = TUKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		320BF4DF685C51D4F344B27CC2AFCD7A /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
-		35A56E605782FF445B8D1926DF2E1BEE /* TFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFont.m; path = TUKit/Font/TFont.m; sourceTree = "<group>"; };
 		378701395393342CD3D7F531BD949AB8 /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		3989A6B6546ADCDAA9FE06D8B8AFC80C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		39DC8590079ECF0707ABDB491D2B1800 /* SPTCompiledExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCompiledExample.m; path = Specta/Specta/SPTCompiledExample.m; sourceTree = "<group>"; };
-		3A555323C7C4902301433C43A5508F87 /* TBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseViewController.h; path = TUKit/ViewController/TBaseViewController.h; sourceTree = "<group>"; };
 		3B3A0EB1D663593B35820B70D229337A /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
-		3B934127F5A40E86F0221A759C5D6A30 /* UITextView+TUKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TUKit.m"; path = "TUKit/TextView/UITextView+TUKit.m"; sourceTree = "<group>"; };
+		3BC69A0DFAE264566E45DEE0D34347E2 /* TBaseTabBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTabBarView.h; path = TUKit/View/TBaseTabBarView.h; sourceTree = "<group>"; };
 		3C2C772743235C0C3B5F7C5015AE6EF5 /* Pods-TUKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TUKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CAF7916E2F927562729DC4A11FE7BA5 /* TBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseViewController.m; path = TUKit/ViewController/TBaseViewController.m; sourceTree = "<group>"; };
+		3CB58A13D7DBA8E31D4EC18E6353C15F /* UINib+Create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINib+Create.m"; path = "TUKit/View/UINib+Create.m"; sourceTree = "<group>"; };
+		3D9647265C1B2D606BB3CE22C9CAC53E /* TLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLoadingView.m; path = TUKit/View/TLoadingView.m; sourceTree = "<group>"; };
 		3EED954F71EFC8E6272180452204A4F0 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		4071008E17C1C1A14B47D9FD66D43C64 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		4094B55F00F09D9440FEDFD775E64F31 /* loading_slices.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading_slices.png; path = TUKit/View/Assets/loading_slices.png; sourceTree = "<group>"; };
 		40F139CD985D6FA877B61DFADFC47E2D /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		42322B7CD5209379C11A643939EC0995 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		423E370F906FD43E2172FE06C3E61148 /* Pods-TUKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TUKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		42571B34BF0EE2FB546082AB7D426499 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
 		428875C60AE5655E4B53F3049B106F15 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
-		435BC1FAE976E9CA0F4EC5DF32E78F7C /* UIViewController+TUKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TUKit.m"; path = "TUKit/ViewController/UIViewController+TUKit.m"; sourceTree = "<group>"; };
-		44382332A76D79CC4C56F6E25D07DB8F /* TBaseTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTableView.m; path = TUKit/TableView/TBaseTableView.m; sourceTree = "<group>"; };
 		45D04277848541F0D44BF26BEC72741B /* XCTestCase+Specta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestCase+Specta.m"; path = "Specta/Specta/XCTestCase+Specta.m"; sourceTree = "<group>"; };
-		46A1316290ACC8170D8461038146DAEE /* UIImage+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Addition.h"; path = "TUKit/Image/UIImage+Addition.h"; sourceTree = "<group>"; };
 		47D78C0FFB3A5B0F717507AF0528A99C /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
+		4B115C9B83484EA3A9B9502441E48483 /* TBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTableViewCell.m; path = TUKit/TableView/TBaseTableViewCell.m; sourceTree = "<group>"; };
+		4C2082C57645A292B6DC32A72F045E4D /* UINib+Create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINib+Create.h"; path = "TUKit/View/UINib+Create.h"; sourceTree = "<group>"; };
 		4CE9D6F97C99369DB8177B813216577C /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
 		4E022B87DECE1267F1A9442D71EC929A /* XCTestCase+Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTestCase+Specta.h"; path = "Specta/Specta/XCTestCase+Specta.h"; sourceTree = "<group>"; };
+		5058FB824822A44AFDFD533715DFCB7D /* TUKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TUKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52505EB55689BECF74CD28D98326DDFF /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		52AAFB484E4786D890BEB4685682648D /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
 		52FA3137F116E3BAAEB203E05F7ABFFE /* Pods-TUKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TUKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		532239810505696156ACB9BF4D4F891B /* TCollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCollectionViewLeftAlignedLayout.m; path = TUKit/CollectionView/TCollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
-		551118BA8176C8DBFCA9404BF5FE9382 /* TUKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUKit-prefix.pch"; sourceTree = "<group>"; };
-		55B96499FA2B10888315C1458F77D6B1 /* TBaseTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTabBarItem.m; path = TUKit/View/TBaseTabBarItem.m; sourceTree = "<group>"; };
+		534119AA7B6D8D03CB2260542305D286 /* TBorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBorder.m; path = TUKit/View/TBorder.m; sourceTree = "<group>"; };
 		55D25838697B5AD842EA3E2B14FD48F5 /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
 		5635FE9F1C88AE243909F34AEE890B42 /* Pods-TUKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TUKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		56C848C7BF1C5B608A67C287A530A445 /* ResourceBundle-TUView-TUKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TUView-TUKit-Info.plist"; sourceTree = "<group>"; };
 		58C8F9E8C44E028B08C772630921E312 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
-		58FFC6C94B10010692041F0CE8B4805A /* TColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TColor.h; path = TUKit/Color/TColor.h; sourceTree = "<group>"; };
-		5A88395F94677B855D617CBD3333AB10 /* UIView+TUKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TUKit.m"; path = "TUKit/View/UIView+TUKit.m"; sourceTree = "<group>"; };
 		5B29219AA32FAD39F9352A369800C98C /* Pods-TUKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TUKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5E74DF368485A63E8B58D6823F03A39F /* TBaseCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseCollectionViewCell.m; path = TUKit/CollectionView/TBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		5F904031C10F0D3BC5A7704DABDD411D /* TBaseCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseCollectionView.m; path = TUKit/CollectionView/TBaseCollectionView.m; sourceTree = "<group>"; };
 		5FA7F6DB7683418F26ECD674AEE5A7CB /* Pods_TUKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TUKit_Tests.framework; path = "Pods-TUKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		611931FA983644C50D50796A69D25462 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
+		620FA41DCB14EBB5F391C2F7A42DE5C5 /* TBaseTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTabBarItem.h; path = TUKit/View/TBaseTabBarItem.h; sourceTree = "<group>"; };
+		630EDBBF4C1A8C346D8F089E8E596471 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6489890977FF6077A08C7B9A938F1EFC /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		64A3F943272C7DBDF7193624464265E5 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		671E5A271B2373A30EC6559352D9A5A8 /* TBaseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTableView.h; path = TUKit/TableView/TBaseTableView.h; sourceTree = "<group>"; };
 		67897EEED208F0128AFF83C7E9810947 /* Pods-TUKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TUKit_Tests.modulemap"; sourceTree = "<group>"; };
 		67B78C1CDE3986F11692C8EB3B83421C /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 		684500AB63672DFF347663A21D1C0B25 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
+		686CD8D3336EBA3A1120CA5AAAC36489 /* TBaseTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTabBarItem.m; path = TUKit/View/TBaseTabBarItem.m; sourceTree = "<group>"; };
 		6969CD32C692DA84573A6685ED5C111D /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
 		6BAF4B19346E912DAD3C05EC9D5C235B /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
 		6C5B2825EADB89EEE85587DD4CCE9A9C /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		7114DA3739CD7EBB03A5039848C7B10B /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
 		71583F788BEA684ADC5D574D39C04695 /* EXPExpect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPExpect.m; path = Expecta/EXPExpect.m; sourceTree = "<group>"; };
-		72E1F525D2B304E68657908655BDE79E /* loading_slices@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading_slices@3x.png"; path = "TUKit/View/Assets/loading_slices@3x.png"; sourceTree = "<group>"; };
+		72788D8EFB67F0C0C69AD92CC8C6759D /* UIImage+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Addition.m"; path = "TUKit/Image/UIImage+Addition.m"; sourceTree = "<group>"; };
 		733D4054DEE00670A331BAFCCBBEAB4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		73E4D0F5B82A03650BCCCA0F2AD36758 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
+		7777920B8506C0CBC3DDA3907C59E0C6 /* TUKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TUKit-Info.plist"; sourceTree = "<group>"; };
+		7934782AE2E6B0717D143B9F7AA6C928 /* TLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLoadingView.h; path = TUKit/View/TLoadingView.h; sourceTree = "<group>"; };
 		7949C680B1C407F92F3BC8ED5F4927E7 /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
+		7B4F514CD6F3EBC602BFC675A5935D88 /* UIButton+Addation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Addation.m"; path = "TUKit/View/UIButton+Addation.m"; sourceTree = "<group>"; };
 		7B5BB3279000A366D3B10623917C1BE8 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
+		7BF795A5C30BFDCCF294285DAE74B86B /* TFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFont.m; path = TUKit/Font/TFont.m; sourceTree = "<group>"; };
 		7C792467D81930244BE2E6B2276680B8 /* Specta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Specta.h; path = Specta/Specta/Specta.h; sourceTree = "<group>"; };
-		7CDC457CE1EB2930C4C1FF027E93A108 /* TBaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTableViewHeaderFooterView.h; path = TUKit/TableView/TBaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
-		7D7A662CF493A45A8AE42F17492AF8BE /* TBaseTabBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTabBarView.m; path = TUKit/View/TBaseTabBarView.m; sourceTree = "<group>"; };
+		7D4A0A720530FF9768272E1F2D5822A9 /* TUKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUKit-prefix.pch"; sourceTree = "<group>"; };
+		7DC9EB89A4019F12936E7390CA34EEB2 /* UIImage+Addition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Addition.h"; path = "TUKit/Image/UIImage+Addition.h"; sourceTree = "<group>"; };
 		7FDEC6602BF26655877BD52BFBE60545 /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
-		80F4922F2DDCECF4E5F7E9729AFA3B0B /* TColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TColor.m; path = TUKit/Color/TColor.m; sourceTree = "<group>"; };
-		82D04DEA9BC3174B7B8008AA62BB88E4 /* TBaseCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseCollectionViewCell.h; path = TUKit/CollectionView/TBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		813F05070DD7794273EABA365BE47F65 /* TTimeCountLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTimeCountLabel.h; path = TUKit/Label/TTimeCountLabel.h; sourceTree = "<group>"; };
 		849525FDA0EF88BBA933FA4A84E9B485 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
 		8556078EDD361D821EC3FA90F47A2F2D /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		879E933EF04DB48A6450BCC4BC2A344B /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
-		8AF36382230F2E02C638030B29704DA1 /* UINib+Create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINib+Create.h"; path = "TUKit/View/UINib+Create.h"; sourceTree = "<group>"; };
+		8990B69B62A8F22F6EFCD2EAC08F4F1F /* TCollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCollectionViewLeftAlignedLayout.h; path = TUKit/CollectionView/TCollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91B45433C79C16663D73D77EC226442A /* loading_slices.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = loading_slices.png; path = TUKit/View/Assets/loading_slices.png; sourceTree = "<group>"; };
+		8E3C01C9936C1982637BD13569A8C037 /* TBaseCollectionReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseCollectionReusableView.h; path = TUKit/CollectionView/TBaseCollectionReusableView.h; sourceTree = "<group>"; };
+		8F9192B7E92CEC0383E3F54851A52C21 /* TBaseView+Create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBaseView+Create.h"; path = "TUKit/View/TBaseView+Create.h"; sourceTree = "<group>"; };
+		929B185625C1092E44E6156658CAE198 /* TBorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBorder.h; path = TUKit/View/TBorder.h; sourceTree = "<group>"; };
 		951AEA37BB94623EDBE740FB5C518505 /* XCTest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "XCTest+Private.h"; path = "Specta/Specta/XCTest+Private.h"; sourceTree = "<group>"; };
-		956E0EB7E167F04EDEC09EDF8536374A /* TUKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TUKit-Info.plist"; sourceTree = "<group>"; };
-		9578A00C0AE85D974ACB99BF03AF7450 /* TFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFont.h; path = TUKit/Font/TFont.h; sourceTree = "<group>"; };
+		9563F48412C0CAE8FE360F6A0453C457 /* TCollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TCollectionViewLeftAlignedLayout.m; path = TUKit/CollectionView/TCollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 		95B41E8FC5F672D3ACCE9D262B28F593 /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
-		972E31FEE566C96395B0B20834F5F827 /* UIViewController+TUKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TUKit.h"; path = "TUKit/ViewController/UIViewController+TUKit.h"; sourceTree = "<group>"; };
-		9C515D3F6D797935A48B3F4F986D2929 /* TCollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCollectionViewLeftAlignedLayout.h; path = TUKit/CollectionView/TCollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		9791CA62C5CD0A5F633014D72BF291A9 /* TBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseView.h; path = TUKit/View/TBaseView.h; sourceTree = "<group>"; };
 		9C87E563366D18D2C7352BFB71A3AD42 /* TUView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TUView.bundle; path = "TUKit-TUView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9C6EDA9507EBF25C2D3D47AE9CA344 /* SPTSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSpec.m; path = Specta/Specta/SPTSpec.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0EADB5EADB0FD3DD71952EA70FE1E12 /* Specta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Specta.modulemap; sourceTree = "<group>"; };
+		A179B23C1D7F6A9AA959EA599FD549EF /* TUKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TUKit.xcconfig; sourceTree = "<group>"; };
 		A22EF0AE33DF35212EE3B4DFD8F0715D /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		A43CDF07DB7171441A2D27F41857E5C9 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		A4CDE3179748C6DD03A438B3A90969EA /* SpectaDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaDSL.h; path = Specta/Specta/SpectaDSL.h; sourceTree = "<group>"; };
+		A5958BE362B790763B40161CF7993569 /* TColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TColor.h; path = TUKit/Color/TColor.h; sourceTree = "<group>"; };
 		A5B1460AAB9FAF9840E8E2A880C0553F /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		A6A19D6886420EE5B12368F01C70D395 /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		A6CC1CCF9170259F90C9411289560283 /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
@@ -372,33 +373,29 @@
 		A8C0E7142A1BBE248F3556112DA1C78F /* Pods-TUKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TUKit_Example-Info.plist"; sourceTree = "<group>"; };
 		A9DAF095F8062E3A45E7E1FC2E3840AC /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		A9FAFA96775E87A719F5ECB438E01A07 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
-		AA6A344C747D8439609972B968282669 /* UIView+TUKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TUKit.h"; path = "TUKit/View/UIView+TUKit.h"; sourceTree = "<group>"; };
-		ADAFCEF3FE7020DA73CF1034CF85A383 /* TBaseView+Create.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TBaseView+Create.h"; path = "TUKit/View/TBaseView+Create.h"; sourceTree = "<group>"; };
 		AF367EBC720B24C98704702A5A14589C /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		AF9E28F4867CE50BCD442F79664FDB63 /* SPTSharedExampleGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSharedExampleGroups.h; path = Specta/Specta/SPTSharedExampleGroups.h; sourceTree = "<group>"; };
 		AFE012C7DB945CE65C3B3AA7151CC324 /* Specta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Specta-dummy.m"; sourceTree = "<group>"; };
+		B002591825387AD28070838FF814E03B /* UIView+TUKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+TUKit.h"; path = "TUKit/View/UIView+TUKit.h"; sourceTree = "<group>"; };
 		B0C4FBB5F20FDE48EBC03B7D76607418 /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
-		B2873750178A9E91F690182C9905AA5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B5B3AF5A43F8DDC6ABB17A023F7E81F9 /* TBaseCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseCollectionView.h; path = TUKit/CollectionView/TBaseCollectionView.h; sourceTree = "<group>"; };
 		B5C1F0DAEC6A9A4D1DD9F7E5AA5236E2 /* Pods-TUKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TUKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B834E54FCF6E067DFA86785D9AA7043B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B83D53FE55552AC0DEED998FE6D4D3A4 /* TLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLoadingView.m; path = TUKit/View/TLoadingView.m; sourceTree = "<group>"; };
-		B94E0BDDD4938A1231DFCD9F759F75FC /* TConstraintHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TConstraintHelper.m; path = TUKit/View/TConstraintHelper.m; sourceTree = "<group>"; };
 		B97B83C06CFD8C7E9A1A61F421143BE0 /* SPTGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTGlobalBeforeAfterEach.h; path = Specta/Specta/SPTGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
+		B9BED4500D5D2D9F9CDE89321579DCF3 /* TUKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUKit-umbrella.h"; sourceTree = "<group>"; };
 		BC5BBB18B48C0DC9D9CBE6E456330BC2 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
 		BDF7A4A1912EE262D2F94618BD85DB62 /* Pods-TUKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TUKit_Example.modulemap"; sourceTree = "<group>"; };
-		BF5DCF9827D931C819359A7000E133C1 /* UIButton+Addation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Addation.m"; path = "TUKit/View/UIButton+Addation.m"; sourceTree = "<group>"; };
 		BFBDB23B1878D6969E44692010EA8B08 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		C06BC4C009AEB74F6067717679773D98 /* TColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TColor.m; path = TUKit/Color/TColor.m; sourceTree = "<group>"; };
+		C1BE8F20E8E2B1FCFE15F4D4C1EABE56 /* UIView+TUKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+TUKit.m"; path = "TUKit/View/UIView+TUKit.m"; sourceTree = "<group>"; };
 		C2080DB5D57A71274B6A8EFEDBE615F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C22B94C950C4BC06125010BEF4799F07 /* UITextView+TUKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TUKit.h"; path = "TUKit/TextView/UITextView+TUKit.h"; sourceTree = "<group>"; };
-		C239391104949BB0A0A477512197E373 /* TBaseCollectionReusableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseCollectionReusableView.h; path = TUKit/CollectionView/TBaseCollectionReusableView.h; sourceTree = "<group>"; };
+		C2298F47027670D2F0D242D8D14EEDE6 /* TFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFont.h; path = TUKit/Font/TFont.h; sourceTree = "<group>"; };
 		C23DC37F2BF39F16C91B5CA37C7DEFC7 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
 		C33999B60CA5057252695D1EC0E1098B /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		C38CEAC8349BD5E1FF49E96C0C813C1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C3A7DF3BB7B1ABD84564BDB96A8E9E11 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
 		C3B612CA73682E336595CDFA7FB1F8D7 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C455BCBFB11CDAAE706FD400484B726C /* UIViewController+TUKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+TUKit.m"; path = "TUKit/ViewController/UIViewController+TUKit.m"; sourceTree = "<group>"; };
 		C58F03BC14CCA2043EDF5BE412732EAD /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		C5AFC011E5B2C7C4793BE50D926137DD /* UIButton+Addation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Addation.h"; path = "TUKit/View/UIButton+Addation.h"; sourceTree = "<group>"; };
 		C6F601E41BC5FFE048415D8391766817 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		C71DB9057F37ABC77FFB9B479088B24C /* Pods-TUKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TUKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C728738EF384F2D9F21290B7AE99D304 /* Specta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.xcconfig; sourceTree = "<group>"; };
@@ -406,50 +403,55 @@
 		C972BAEAE35F49878DFB0916CF20647B /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		CBA0CAE74F0BE5207241A322387D82D1 /* Pods-TUKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TUKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		CC136329DE9D1E657A6CA4B768397E14 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CC208C1706E8FD8817508078FA26BB12 /* TConstraintHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TConstraintHelper.h; path = TUKit/View/TConstraintHelper.h; sourceTree = "<group>"; };
 		CC48252E4C9042E99F01FAA942DB8C48 /* Pods-TUKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TUKit_Example-dummy.m"; sourceTree = "<group>"; };
-		CE570B6188780E56F94B80F2E9F9A204 /* TBaseTabBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTabBarView.h; path = TUKit/View/TBaseTabBarView.h; sourceTree = "<group>"; };
+		CF01D40442F6850C6311CE2FCACE17A6 /* TTimeCountLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTimeCountLabel.m; path = TUKit/Label/TTimeCountLabel.m; sourceTree = "<group>"; };
+		CF6781833916BE6B1410E237D960206C /* TBaseCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseCollectionViewCell.h; path = TUKit/CollectionView/TBaseCollectionViewCell.h; sourceTree = "<group>"; };
 		CFD9125632F1B9A439A9851D610B388A /* Pods-TUKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TUKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		D109C2AC64C4AFAA689743C93050976D /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
-		D1E908DC3E0A487F30EAED96093F1324 /* TUKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TUKit-dummy.m"; sourceTree = "<group>"; };
 		D1EDB90FBEFD102FFC9F0A3080F0F12D /* SPTExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExample.m; path = Specta/Specta/SPTExample.m; sourceTree = "<group>"; };
-		D24939C6E046F79C8C64279A0ACE6569 /* TUMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUMacro.h; path = TUKit/Macro/TUMacro.h; sourceTree = "<group>"; };
-		D34911D5AEB702AB51DFC01905B7FE98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D3C9933B8E8E53CF765E148EF03F1916 /* TBaseTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTableViewCell.m; path = TUKit/TableView/TBaseTableViewCell.m; sourceTree = "<group>"; };
-		D58975D6CA782A8145C022A7156E715E /* TBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseView.m; path = TUKit/View/TBaseView.m; sourceTree = "<group>"; };
+		D26DBBF844748A69CDD3A3708C2C4E37 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D3795CC53C7A49A850BBABE42440B40D /* TConstraintHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TConstraintHelper.m; path = TUKit/View/TConstraintHelper.m; sourceTree = "<group>"; };
+		D5621455C38325347465C4917A57682E /* loading_slices@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading_slices@2x.png"; path = "TUKit/View/Assets/loading_slices@2x.png"; sourceTree = "<group>"; };
 		D5B16B4E6F65D2ECAA2371B9AF686ECB /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
+		D7DD7D1778E4BCDC854268868A4418BC /* TUKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TUKit.modulemap; sourceTree = "<group>"; };
 		D841442104651119228B8E05B9EADC43 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D84E69A9C602748B7FBF746CB9ECFCBB /* TConstraintHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TConstraintHelper.h; path = TUKit/View/TConstraintHelper.h; sourceTree = "<group>"; };
-		DBB2F31B68C261DE7E3A26F0D6D8C30C /* TUKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TUKit.modulemap; sourceTree = "<group>"; };
+		DD256D2F4D6D5B35410C412C62EC7D45 /* TBaseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTableView.h; path = TUKit/TableView/TBaseTableView.h; sourceTree = "<group>"; };
 		DD76D62838E442FCE25F97A5CD6A9BC8 /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
-		DE671A629105E32A26317445D3C6A56F /* TUKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TUKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDDDC519EBC71B5488FDD0779EA428CA /* TBaseTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTableView.m; path = TUKit/TableView/TBaseTableView.m; sourceTree = "<group>"; };
 		DEB876CB5BFD1045A626FC3C49FED8CE /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
+		DEE6B84184D4769DD053313B8A030D32 /* UITextView+TUKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TUKit.m"; path = "TUKit/TextView/UITextView+TUKit.m"; sourceTree = "<group>"; };
+		E00D81E4E9A0AC11EFF299389D676D02 /* TUKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TUKit-dummy.m"; sourceTree = "<group>"; };
 		E191736CC4F73C3801A97480D212F821 /* SpectaUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaUtility.h; path = Specta/Specta/SpectaUtility.h; sourceTree = "<group>"; };
 		E1DB9611ED66D0E8DDE77B6B21EDFFFC /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
-		E34E1EF31EEB26B377759848C6265B0D /* UIImage+Addition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Addition.m"; path = "TUKit/Image/UIImage+Addition.m"; sourceTree = "<group>"; };
-		E52F3C4CFCF2031E6D14F67A77E12EBF /* TBaseTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTabBarItem.h; path = TUKit/View/TBaseTabBarItem.h; sourceTree = "<group>"; };
+		E1DDC619C9710F5AB9F804BE1CD9D3BB /* TUKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUKit.h; path = TUKit/TUKit.h; sourceTree = "<group>"; };
+		E601FFBDEB9EDE8F028BFAFA71C61175 /* TBaseTabBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTabBarView.m; path = TUKit/View/TBaseTabBarView.m; sourceTree = "<group>"; };
 		E682C91CE1F18626FDA4C92195D32A1A /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 		E6A9357C8D033BAD615DF6C0F0B7F457 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
+		E817311F8C552600AEA370C2973B1B51 /* UIViewController+TUKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+TUKit.h"; path = "TUKit/ViewController/UIViewController+TUKit.h"; sourceTree = "<group>"; };
 		EAD306826F3DB39BD6AD57C6924B2AE3 /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
-		EB68FFFE751595F9031B931C9D614B44 /* loading_slices@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading_slices@2x.png"; path = "TUKit/View/Assets/loading_slices@2x.png"; sourceTree = "<group>"; };
-		ED141057CF42A2DD6449731D18D7A720 /* TUKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUKit-umbrella.h"; sourceTree = "<group>"; };
+		EAF5E0F742AE2FCF057F9DF07564FB9A /* TBaseCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseCollectionViewCell.m; path = TUKit/CollectionView/TBaseCollectionViewCell.m; sourceTree = "<group>"; };
 		ED5BA504F0B5F07DD8CEB3DA11F0D8A7 /* SPTCallSite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTCallSite.m; path = Specta/Specta/SPTCallSite.m; sourceTree = "<group>"; };
 		EF2B30F4B40AA6C3B15AAC4A5756D6C2 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
 		EF7EE9EE9714C17189AE99F3DEEB59C9 /* Pods-TUKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TUKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F09A0E31F58CFEDB7FD243982C719120 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		F138DC0E19793EF9ED74B2586E7BD1F8 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Expecta.modulemap; sourceTree = "<group>"; };
-		F21BEFB2CA7F9D8F868048B0F99D07C3 /* TBaseCollectionReusableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseCollectionReusableView.m; path = TUKit/CollectionView/TBaseCollectionReusableView.m; sourceTree = "<group>"; };
-		F2CA52EB507CB25BA80D4BC66050734B /* TBorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBorder.m; path = TUKit/View/TBorder.m; sourceTree = "<group>"; };
+		F14C55FDA88D4B82DB1599220D0F8F23 /* TBaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTableViewHeaderFooterView.h; path = TUKit/TableView/TBaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		F18A07C7974C476E156B90779CD138DC /* TBaseTableViewHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBaseTableViewHeaderFooterView.m; path = TUKit/TableView/TBaseTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		F2E443FB48E04A2E0BEFADA171285CAA /* ResourceBundle-TUView-TUKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TUView-TUKit-Info.plist"; sourceTree = "<group>"; };
 		F3BD84010D2799A0E16DDDDFDD766608 /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
 		F5CE2F9FEC4BDB2D1BC6FD49EB58AED7 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		F9E5F2D57F79753C1DE4743E40C7B5E3 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		FA0F81B9642BF7FB68D54575280D3027 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		FB44C2EC95B98D664446C1612A33C605 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
+		FB4E3243FCF43B07568EC94FF5D37118 /* loading_slices@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading_slices@3x.png"; path = "TUKit/View/Assets/loading_slices@3x.png"; sourceTree = "<group>"; };
+		FBB7EE41F79420EB2570B890540AD3AF /* TBaseTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBaseTableViewCell.h; path = TUKit/TableView/TBaseTableViewCell.h; sourceTree = "<group>"; };
 		FCFBB6B1F4C36BD5C7BBD246B836AC96 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FD7F0D69E099B5489C3CFACF75A6AE64 /* UINib+Create.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINib+Create.m"; path = "TUKit/View/UINib+Create.m"; sourceTree = "<group>"; };
 		FD896640FA182BB5C4D6C04079F011D9 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		FF95E49D27A166E6053428B206FB29EF /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		FFE6E2127F8E0B152D89E56EA992D3F0 /* Pods-TUKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TUKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FFE760637050C19CB2A15B83D0EB7DF4 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
+		FFE907BEF3384A889BDBCD10F24E94D2 /* UITextView+TUKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TUKit.h"; path = "TUKit/TextView/UITextView+TUKit.h"; sourceTree = "<group>"; };
 		FFEE0DC55561E8B01753BA5677D726D2 /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -459,6 +461,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				6239AF86F5E3577986D250BEE19D8152 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050D561124346952D27D57C5C07C350E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BCDEB875C98993EDDA16F32DAE64BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497453DCD6A2104FA34A1F0A7E8C2C50 /* Foundation.framework in Frameworks */,
+				615E9316AD1717A49FC25E974A33B9D2 /* MBProgressHUD.framework in Frameworks */,
+				9EC9B87F1098DFDBA17A3ECE35207741 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,28 +500,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84B819FC28C42FB252A5FCB1F2DBE7EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AB2BE054DE9C7B85ACADFA75D8CD0AD7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				544C6D3A8C488AF19C2073E1E7281FFB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B8BF71C52991AE20EBE3D1D8F099117D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8445434A34DF67A97E95FCEA502A2990 /* Foundation.framework in Frameworks */,
-				DF61D12F021437F03E2BEE0E37C93FFA /* MBProgressHUD.framework in Frameworks */,
-				CD3653F37670523604C3EEE6468D0E72 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +520,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0885C3643252BF9213BC4261248533B3 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				813F05070DD7794273EABA365BE47F65 /* TTimeCountLabel.h */,
+				CF01D40442F6850C6311CE2FCACE17A6 /* TTimeCountLabel.m */,
+			);
+			name = Label;
+			sourceTree = "<group>";
+		};
+		089FD8D2D294F9BCC324B5ED8DC068C3 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				FFE907BEF3384A889BDBCD10F24E94D2 /* UITextView+TUKit.h */,
+				DEE6B84184D4769DD053313B8A030D32 /* UITextView+TUKit.m */,
+			);
+			name = TextView;
+			sourceTree = "<group>";
+		};
 		0DA6E197CBE01CCFEC217D0185411DDC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -552,13 +572,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2FADA3638620FED4A1BE3894C700E9D6 /* TextView */ = {
+		22B89534D685368F8CA8A5D568471C14 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				C22B94C950C4BC06125010BEF4799F07 /* UITextView+TUKit.h */,
-				3B934127F5A40E86F0221A759C5D6A30 /* UITextView+TUKit.m */,
+				C2298F47027670D2F0D242D8D14EEDE6 /* TFont.h */,
+				7BF795A5C30BFDCCF294285DAE74B86B /* TFont.m */,
 			);
-			name = TextView;
+			name = Font;
+			sourceTree = "<group>";
+		};
+		22D6F2E979DDBE3B5A4BA36E160CD322 /* TUKit */ = {
+			isa = PBXGroup;
+			children = (
+				E1DDC619C9710F5AB9F804BE1CD9D3BB /* TUKit.h */,
+				6378AEC0E45E87AA0BF9C41E740878B5 /* CollectionView */,
+				699E57A17C326F114A59AA0FA6AE75FB /* Color */,
+				22B89534D685368F8CA8A5D568471C14 /* Font */,
+				BAAFA90E216FC2383F55F89FB51AA904 /* Image */,
+				0885C3643252BF9213BC4261248533B3 /* Label */,
+				7AB8993D5F0D03963174D43A2767AFE6 /* Macro */,
+				80186FFE316BDB7BD85EFBF4BBB6CB92 /* Pod */,
+				6881B5259044E208700931B1C47C6813 /* Support Files */,
+				4F60570949DAE2AEF851CBF1490BEC47 /* TableView */,
+				089FD8D2D294F9BCC324B5ED8DC068C3 /* TextView */,
+				D73AED55175C26179896ED64F2B0DD2B /* View */,
+				5A9DBF7BC2527BFF610C6EF16B578F79 /* ViewController */,
+			);
+			name = TUKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3256F274BF74D13FF2DEFC4EAAB9B1A6 /* Expecta */ = {
@@ -643,6 +684,14 @@
 			path = Expecta;
 			sourceTree = "<group>";
 		};
+		3D9096141E6EEA4E13355DEDE25F0EE4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22D6F2E979DDBE3B5A4BA36E160CD322 /* TUKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		42BB8BFC3FE130D4136B8FA9ADF9DC71 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,6 +716,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4F60570949DAE2AEF851CBF1490BEC47 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DD256D2F4D6D5B35410C412C62EC7D45 /* TBaseTableView.h */,
+				DDDDC519EBC71B5488FDD0779EA428CA /* TBaseTableView.m */,
+				FBB7EE41F79420EB2570B890540AD3AF /* TBaseTableViewCell.h */,
+				4B115C9B83484EA3A9B9502441E48483 /* TBaseTableViewCell.m */,
+				F14C55FDA88D4B82DB1599220D0F8F23 /* TBaseTableViewHeaderFooterView.h */,
+				F18A07C7974C476E156B90779CD138DC /* TBaseTableViewHeaderFooterView.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
 		50EF9785A76F0BB800B0AB0AB5784888 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -679,42 +741,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5418FF6E43C192280BBCFF6B9732FF69 /* View */ = {
+		5A9DBF7BC2527BFF610C6EF16B578F79 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E52F3C4CFCF2031E6D14F67A77E12EBF /* TBaseTabBarItem.h */,
-				55B96499FA2B10888315C1458F77D6B1 /* TBaseTabBarItem.m */,
-				CE570B6188780E56F94B80F2E9F9A204 /* TBaseTabBarView.h */,
-				7D7A662CF493A45A8AE42F17492AF8BE /* TBaseTabBarView.m */,
-				1EBF2129DE82E1E7E067846BB7EABBDF /* TBaseView.h */,
-				D58975D6CA782A8145C022A7156E715E /* TBaseView.m */,
-				ADAFCEF3FE7020DA73CF1034CF85A383 /* TBaseView+Create.h */,
-				0EB8874B43D86F95B33FC8E5024049C3 /* TBaseView+Create.m */,
-				032215E3C501DAA7A825CD4DBD204CAD /* TBorder.h */,
-				F2CA52EB507CB25BA80D4BC66050734B /* TBorder.m */,
-				D84E69A9C602748B7FBF746CB9ECFCBB /* TConstraintHelper.h */,
-				B94E0BDDD4938A1231DFCD9F759F75FC /* TConstraintHelper.m */,
-				13CFB273B28DF225FE8F98313D2DF559 /* TLoadingView.h */,
-				B83D53FE55552AC0DEED998FE6D4D3A4 /* TLoadingView.m */,
-				C5AFC011E5B2C7C4793BE50D926137DD /* UIButton+Addation.h */,
-				BF5DCF9827D931C819359A7000E133C1 /* UIButton+Addation.m */,
-				8AF36382230F2E02C638030B29704DA1 /* UINib+Create.h */,
-				FD7F0D69E099B5489C3CFACF75A6AE64 /* UINib+Create.m */,
-				AA6A344C747D8439609972B968282669 /* UIView+TUKit.h */,
-				5A88395F94677B855D617CBD3333AB10 /* UIView+TUKit.m */,
-				C358C293803D26C6BC731B5D39595D30 /* Resources */,
+				28C33BE25AACB188F0A966AD4E7323E6 /* TBaseViewController.h */,
+				3CAF7916E2F927562729DC4A11FE7BA5 /* TBaseViewController.m */,
+				E817311F8C552600AEA370C2973B1B51 /* UIViewController+TUKit.h */,
+				C455BCBFB11CDAAE706FD400484B726C /* UIViewController+TUKit.m */,
 			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		5D13B6121FCEA21AD410DFEEDA116D2D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B2873750178A9E91F690182C9905AA5D /* LICENSE */,
-				D34911D5AEB702AB51DFC01905B7FE98 /* README.md */,
-				DE671A629105E32A26317445D3C6A56F /* TUKit.podspec */,
-			);
-			name = Pod;
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		5E134F775816CEBC9695BECF4FC62A7D /* Targets Support Files */ = {
@@ -726,35 +761,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6999337E65BF368C5BD6FB0016F48CCF /* Macro */ = {
+		6378AEC0E45E87AA0BF9C41E740878B5 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				D24939C6E046F79C8C64279A0ACE6569 /* TUMacro.h */,
-			);
-			name = Macro;
-			sourceTree = "<group>";
-		};
-		6F9F34803DEF07DADCE10D867DE734CB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BEADC01472D73CF4B49692A38EB50237 /* TUKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		72512A83F588772D6E2001119488C3DB /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				C239391104949BB0A0A477512197E373 /* TBaseCollectionReusableView.h */,
-				F21BEFB2CA7F9D8F868048B0F99D07C3 /* TBaseCollectionReusableView.m */,
-				B5B3AF5A43F8DDC6ABB17A023F7E81F9 /* TBaseCollectionView.h */,
-				1875C796CD6EE9DFB5DA387AAC978549 /* TBaseCollectionView.m */,
-				82D04DEA9BC3174B7B8008AA62BB88E4 /* TBaseCollectionViewCell.h */,
-				5E74DF368485A63E8B58D6823F03A39F /* TBaseCollectionViewCell.m */,
-				9C515D3F6D797935A48B3F4F986D2929 /* TCollectionViewLeftAlignedLayout.h */,
-				532239810505696156ACB9BF4D4F891B /* TCollectionViewLeftAlignedLayout.m */,
+				8E3C01C9936C1982637BD13569A8C037 /* TBaseCollectionReusableView.h */,
+				1D8E5814370152DCFDAE8EE6BECA843E /* TBaseCollectionReusableView.m */,
+				12D347F7EC44471D8F9CD6252339F5BF /* TBaseCollectionView.h */,
+				5F904031C10F0D3BC5A7704DABDD411D /* TBaseCollectionView.m */,
+				CF6781833916BE6B1410E237D960206C /* TBaseCollectionViewCell.h */,
+				EAF5E0F742AE2FCF057F9DF07564FB9A /* TBaseCollectionViewCell.m */,
+				8990B69B62A8F22F6EFCD2EAC08F4F1F /* TCollectionViewLeftAlignedLayout.h */,
+				9563F48412C0CAE8FE360F6A0453C457 /* TCollectionViewLeftAlignedLayout.m */,
 			);
 			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		6881B5259044E208700931B1C47C6813 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E443FB48E04A2E0BEFADA171285CAA /* ResourceBundle-TUView-TUKit-Info.plist */,
+				D7DD7D1778E4BCDC854268868A4418BC /* TUKit.modulemap */,
+				A179B23C1D7F6A9AA959EA599FD549EF /* TUKit.xcconfig */,
+				E00D81E4E9A0AC11EFF299389D676D02 /* TUKit-dummy.m */,
+				7777920B8506C0CBC3DDA3907C59E0C6 /* TUKit-Info.plist */,
+				7D4A0A720530FF9768272E1F2D5822A9 /* TUKit-prefix.pch */,
+				B9BED4500D5D2D9F9CDE89321579DCF3 /* TUKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TUKit";
+			sourceTree = "<group>";
+		};
+		699E57A17C326F114A59AA0FA6AE75FB /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				A5958BE362B790763B40161CF7993569 /* TColor.h */,
+				C06BC4C009AEB74F6067717679773D98 /* TColor.m */,
+			);
+			name = Color;
 			sourceTree = "<group>";
 		};
 		7502E20CFBB10D2198F74FA5D4312CD4 /* Pods-TUKit_Example */ = {
@@ -774,6 +817,24 @@
 			path = "Target Support Files/Pods-TUKit_Example";
 			sourceTree = "<group>";
 		};
+		7AB8993D5F0D03963174D43A2767AFE6 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				2C9B2423727AEDA05B5B35D7D4F5BC29 /* TUMacro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		80186FFE316BDB7BD85EFBF4BBB6CB92 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				630EDBBF4C1A8C346D8F089E8E596471 /* LICENSE */,
+				D26DBBF844748A69CDD3A3708C2C4E37 /* README.md */,
+				5058FB824822A44AFDFD533715DFCB7D /* TUKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		87AF5DE840F93CC5BC3EFB7B9DF94644 /* Pods-TUKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -791,17 +852,6 @@
 			path = "Target Support Files/Pods-TUKit_Tests";
 			sourceTree = "<group>";
 		};
-		97B5647A85B53668E3EA704DD61ACD1D /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				3A555323C7C4902301433C43A5508F87 /* TBaseViewController.h */,
-				03214607D843023335D903256A824588 /* TBaseViewController.m */,
-				972E31FEE566C96395B0B20834F5F827 /* UIViewController+TUKit.h */,
-				435BC1FAE976E9CA0F4EC5DF32E78F7C /* UIViewController+TUKit.m */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
 		9C02F78303FA7176EF038292A9139C13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -816,28 +866,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1C78467AC773874FD993D02E74F4BFC /* Font */ = {
+		BAAFA90E216FC2383F55F89FB51AA904 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				9578A00C0AE85D974ACB99BF03AF7450 /* TFont.h */,
-				35A56E605782FF445B8D1926DF2E1BEE /* TFont.m */,
+				7DC9EB89A4019F12936E7390CA34EEB2 /* UIImage+Addition.h */,
+				72788D8EFB67F0C0C69AD92CC8C6759D /* UIImage+Addition.m */,
 			);
-			name = Font;
-			sourceTree = "<group>";
-		};
-		AB2487CD68031D3C210BC340D8ED433B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				56C848C7BF1C5B608A67C287A530A445 /* ResourceBundle-TUView-TUKit-Info.plist */,
-				DBB2F31B68C261DE7E3A26F0D6D8C30C /* TUKit.modulemap */,
-				2DEECBAB463FB26B6DEF36E078F43B3F /* TUKit.xcconfig */,
-				D1E908DC3E0A487F30EAED96093F1324 /* TUKit-dummy.m */,
-				956E0EB7E167F04EDEC09EDF8536374A /* TUKit-Info.plist */,
-				551118BA8176C8DBFCA9404BF5FE9382 /* TUKit-prefix.pch */,
-				ED141057CF42A2DD6449731D18D7A720 /* TUKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TUKit";
+			name = Image;
 			sourceTree = "<group>";
 		};
 		BD3EEAC168D9640E35C86013BE1FECC5 /* Support Files */ = {
@@ -854,50 +889,11 @@
 			path = "../Target Support Files/Specta";
 			sourceTree = "<group>";
 		};
-		BEADC01472D73CF4B49692A38EB50237 /* TUKit */ = {
-			isa = PBXGroup;
-			children = (
-				72512A83F588772D6E2001119488C3DB /* CollectionView */,
-				D48BD2AB1F86C6C96D792C01339D385E /* Color */,
-				A1C78467AC773874FD993D02E74F4BFC /* Font */,
-				D0099F4957AF3F17505E498DFF759502 /* Image */,
-				CAC0ED6F1CEB9E8F34D1D393E228285A /* Label */,
-				6999337E65BF368C5BD6FB0016F48CCF /* Macro */,
-				5D13B6121FCEA21AD410DFEEDA116D2D /* Pod */,
-				AB2487CD68031D3C210BC340D8ED433B /* Support Files */,
-				E06864D04C0BDFC0F555DB8CAD3AD90A /* TableView */,
-				2FADA3638620FED4A1BE3894C700E9D6 /* TextView */,
-				5418FF6E43C192280BBCFF6B9732FF69 /* View */,
-				97B5647A85B53668E3EA704DD61ACD1D /* ViewController */,
-			);
-			name = TUKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C358C293803D26C6BC731B5D39595D30 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				91B45433C79C16663D73D77EC226442A /* loading_slices.png */,
-				EB68FFFE751595F9031B931C9D614B44 /* loading_slices@2x.png */,
-				72E1F525D2B304E68657908655BDE79E /* loading_slices@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		CAC0ED6F1CEB9E8F34D1D393E228285A /* Label */ = {
-			isa = PBXGroup;
-			children = (
-				0AA6B96D3F4F514C3C5C4F9A07E70CA7 /* TTimeCountLabel.h */,
-				05D1ED060B9667D06094AF5D27C330A9 /* TTimeCountLabel.m */,
-			);
-			name = Label;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6F9F34803DEF07DADCE10D867DE734CB /* Development Pods */,
+				3D9096141E6EEA4E13355DEDE25F0EE4 /* Development Pods */,
 				104A4D80D99C1775A496A07360DA2B15 /* Frameworks */,
 				43E5112C6A35AE87119CBF6591F0D444 /* Pods */,
 				9C02F78303FA7176EF038292A9139C13 /* Products */,
@@ -905,22 +901,32 @@
 			);
 			sourceTree = "<group>";
 		};
-		D0099F4957AF3F17505E498DFF759502 /* Image */ = {
+		D73AED55175C26179896ED64F2B0DD2B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				46A1316290ACC8170D8461038146DAEE /* UIImage+Addition.h */,
-				E34E1EF31EEB26B377759848C6265B0D /* UIImage+Addition.m */,
+				620FA41DCB14EBB5F391C2F7A42DE5C5 /* TBaseTabBarItem.h */,
+				686CD8D3336EBA3A1120CA5AAAC36489 /* TBaseTabBarItem.m */,
+				3BC69A0DFAE264566E45DEE0D34347E2 /* TBaseTabBarView.h */,
+				E601FFBDEB9EDE8F028BFAFA71C61175 /* TBaseTabBarView.m */,
+				9791CA62C5CD0A5F633014D72BF291A9 /* TBaseView.h */,
+				1E1845CCB7D4D1699EF3666985C209E3 /* TBaseView.m */,
+				8F9192B7E92CEC0383E3F54851A52C21 /* TBaseView+Create.h */,
+				275364BC48DDBB1E54C72B6F0C720B86 /* TBaseView+Create.m */,
+				929B185625C1092E44E6156658CAE198 /* TBorder.h */,
+				534119AA7B6D8D03CB2260542305D286 /* TBorder.m */,
+				CC208C1706E8FD8817508078FA26BB12 /* TConstraintHelper.h */,
+				D3795CC53C7A49A850BBABE42440B40D /* TConstraintHelper.m */,
+				7934782AE2E6B0717D143B9F7AA6C928 /* TLoadingView.h */,
+				3D9647265C1B2D606BB3CE22C9CAC53E /* TLoadingView.m */,
+				22DF84A17EFAF2A56BD40AACB3287BE1 /* UIButton+Addation.h */,
+				7B4F514CD6F3EBC602BFC675A5935D88 /* UIButton+Addation.m */,
+				4C2082C57645A292B6DC32A72F045E4D /* UINib+Create.h */,
+				3CB58A13D7DBA8E31D4EC18E6353C15F /* UINib+Create.m */,
+				B002591825387AD28070838FF814E03B /* UIView+TUKit.h */,
+				C1BE8F20E8E2B1FCFE15F4D4C1EABE56 /* UIView+TUKit.m */,
+				F93B17940BCEA0B20FD8FADEBB6FCAA5 /* Resources */,
 			);
-			name = Image;
-			sourceTree = "<group>";
-		};
-		D48BD2AB1F86C6C96D792C01339D385E /* Color */ = {
-			isa = PBXGroup;
-			children = (
-				58FFC6C94B10010692041F0CE8B4805A /* TColor.h */,
-				80F4922F2DDCECF4E5F7E9729AFA3B0B /* TColor.m */,
-			);
-			name = Color;
+			name = View;
 			sourceTree = "<group>";
 		};
 		DC8D48AB88E36A3F330F664A65F7C833 /* Specta */ = {
@@ -957,22 +963,53 @@
 			path = Specta;
 			sourceTree = "<group>";
 		};
-		E06864D04C0BDFC0F555DB8CAD3AD90A /* TableView */ = {
+		F93B17940BCEA0B20FD8FADEBB6FCAA5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				671E5A271B2373A30EC6559352D9A5A8 /* TBaseTableView.h */,
-				44382332A76D79CC4C56F6E25D07DB8F /* TBaseTableView.m */,
-				280DAC5043C2C64E0E5E2FEAC210DE5A /* TBaseTableViewCell.h */,
-				D3C9933B8E8E53CF765E148EF03F1916 /* TBaseTableViewCell.m */,
-				7CDC457CE1EB2930C4C1FF027E93A108 /* TBaseTableViewHeaderFooterView.h */,
-				18BE31EC7C790F63DB441F9EA276FCDF /* TBaseTableViewHeaderFooterView.m */,
+				4094B55F00F09D9440FEDFD775E64F31 /* loading_slices.png */,
+				D5621455C38325347465C4917A57682E /* loading_slices@2x.png */,
+				FB4E3243FCF43B07568EC94FF5D37118 /* loading_slices@3x.png */,
 			);
-			name = TableView;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		27459703A7D94D1B157ED0A5AB590ED9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC4A47CB75B28AB785785105F69ED0D /* TBaseCollectionReusableView.h in Headers */,
+				01930337C9C4AC0A0E1D7B33BAACBBB3 /* TBaseCollectionView.h in Headers */,
+				BF4EB6C66FA186AF49555A23A9F81CAA /* TBaseCollectionViewCell.h in Headers */,
+				0E8C54F997EEF97BF35FE834F0F5A45D /* TBaseTabBarItem.h in Headers */,
+				E9DED320022A4B44D450AB3AB433A449 /* TBaseTabBarView.h in Headers */,
+				4B2D7BF9248E084401C38CCEF9472C99 /* TBaseTableView.h in Headers */,
+				8A451C8401371C208E3ADA04B1B28B3D /* TBaseTableViewCell.h in Headers */,
+				156EE06F3473F0AC2B3D7F6E211CE9CB /* TBaseTableViewHeaderFooterView.h in Headers */,
+				4C17C1BF829CB6B8C12C7B01B7BE0FA8 /* TBaseView+Create.h in Headers */,
+				A276AEF185C88A7A08491B17A4C7A1ED /* TBaseView.h in Headers */,
+				FA91A14389D44DB5B5DC0F179D36665E /* TBaseViewController.h in Headers */,
+				BEA81D5E429AFD93777961A9D796E07A /* TBorder.h in Headers */,
+				16F79E5E70CE20B3BD4EC89BBA4A9620 /* TCollectionViewLeftAlignedLayout.h in Headers */,
+				9ACFB79EBEF037C382BEC63C3EBDA241 /* TColor.h in Headers */,
+				2865B869496DB3AA8C84D7B2D38E63DB /* TConstraintHelper.h in Headers */,
+				29A7E4CAA4E1AB9932D5D9045FAB754B /* TFont.h in Headers */,
+				3131B9FD25F9CB75202C60596AE9362E /* TLoadingView.h in Headers */,
+				034047D37AAF453C5BDB35042ED7AC68 /* TTimeCountLabel.h in Headers */,
+				D96D62491ECD3A3024B6CEA30875F36D /* TUKit-umbrella.h in Headers */,
+				D793DD1ED8A1A5BAFFB2E8CA24BF217E /* TUKit.h in Headers */,
+				8560BA2DBDD939A68BE9111FE2BB7463 /* TUMacro.h in Headers */,
+				646C976C0E8F758B7DB3A70AFEA1817A /* UIButton+Addation.h in Headers */,
+				EA5EE149F1DBB4402FD663CB4DE8BD3C /* UIImage+Addition.h in Headers */,
+				A78C656C80B0DEC076453FD982F47FA3 /* UINib+Create.h in Headers */,
+				AC02302D9A62277CA0905A4D8CA3646B /* UITextView+TUKit.h in Headers */,
+				86A361F05B2052C2443D70F3C63018F8 /* UIView+TUKit.h in Headers */,
+				166D202410D9E07648BA4BC9BD22BCC7 /* UIViewController+TUKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A6B285E6BF83AEC91730640154C5647 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1068,39 +1105,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F741A955EEA7967E723DBD8EC5B96058 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				697198696F9CE4786D75F53B63FCFB75 /* TBaseCollectionReusableView.h in Headers */,
-				E15344B2F635367A7E1AC45BE1B9757B /* TBaseCollectionView.h in Headers */,
-				C0727D2F92B8E77F2EF8ABCE2FE23BCA /* TBaseCollectionViewCell.h in Headers */,
-				7D40DA4808BC64C8740F5B8D6AB64FD5 /* TBaseTabBarItem.h in Headers */,
-				5614BAE0AF726CE23F0E568EB1DEC91E /* TBaseTabBarView.h in Headers */,
-				7E943519F3F8E1F7BECDCB0E0D2BEE93 /* TBaseTableView.h in Headers */,
-				43D4A1B0618A0A0C8E00B5F18FBF6E66 /* TBaseTableViewCell.h in Headers */,
-				FC36BEC2B03EE7405ECFA84AC85943C0 /* TBaseTableViewHeaderFooterView.h in Headers */,
-				1867113501C41AE03F515BD19280027A /* TBaseView+Create.h in Headers */,
-				4B3BACC5CE28895C902D0974B355C47F /* TBaseView.h in Headers */,
-				34940CEBD6F13F761E645F61E2F02079 /* TBaseViewController.h in Headers */,
-				86A2BBCBF22AAD09075263BC2A6F0188 /* TBorder.h in Headers */,
-				16424B6B4B4F628788D48993DC1C3436 /* TCollectionViewLeftAlignedLayout.h in Headers */,
-				C4F5E7F5A4E3ABBCCC26BF0BE6DE928F /* TColor.h in Headers */,
-				80A4EE59B7359F7D31DB387AAA894290 /* TConstraintHelper.h in Headers */,
-				69F28F7D5D79DB74FECEA17BD2BB1D7F /* TFont.h in Headers */,
-				F72ABD893C74A6F042F36D53827962AD /* TLoadingView.h in Headers */,
-				1E65D8A29D553CFD25D102AC77708496 /* TTimeCountLabel.h in Headers */,
-				38BAF734E5FC7AD8BDEA971E10574EB4 /* TUKit-umbrella.h in Headers */,
-				1E5C8609B41F1500DD387A2DB39146CE /* TUMacro.h in Headers */,
-				E0B1E533BF1D1312D802E01F61FCC2A0 /* UIButton+Addation.h in Headers */,
-				07DBCAC13D39AB9D3AF945F0D8DE522D /* UIImage+Addition.h in Headers */,
-				3A9A3DA8340700178FC81611956D2F3B /* UINib+Create.h in Headers */,
-				3045A33468DE07CEFD96D6F4B39D1B15 /* UITextView+TUKit.h in Headers */,
-				62BDF39248AC956A44AF56DB28AC7EC2 /* UIView+TUKit.h in Headers */,
-				0C6B233A224782898E65157729C89D92 /* UIViewController+TUKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1124,11 +1128,11 @@
 		};
 		89CCA3E89513DDD2E6E4A77D0ADD3FF2 /* TUKit-TUView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2AEDA4672A8C3E8E4451CAC599859C5 /* Build configuration list for PBXNativeTarget "TUKit-TUView" */;
+			buildConfigurationList = 34B372EE15C1A88C674A646C20E62703 /* Build configuration list for PBXNativeTarget "TUKit-TUView" */;
 			buildPhases = (
-				E4EFE68400EFF6F7EE93D7B7B676DA56 /* Sources */,
-				84B819FC28C42FB252A5FCB1F2DBE7EC /* Frameworks */,
-				2235075B663205B581BEE48E2C27D1BA /* Resources */,
+				BFDA36196CEDF2DD3BD5A4C3E4FCC60A /* Sources */,
+				050D561124346952D27D57C5C07C350E /* Frameworks */,
+				6581C0EB6BD4260D51870DB63E744AB2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1182,18 +1186,18 @@
 		};
 		D0A56932EE65130ADC440DE4026A0737 /* TUKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7037ED4DECF6E5C1AE6ED4F3D012107 /* Build configuration list for PBXNativeTarget "TUKit" */;
+			buildConfigurationList = BB4980EA85FCB31BA26FFD6D42BD3523 /* Build configuration list for PBXNativeTarget "TUKit" */;
 			buildPhases = (
-				F741A955EEA7967E723DBD8EC5B96058 /* Headers */,
-				C082936702DCCE502D33E1F5A42EEE7D /* Sources */,
-				B8BF71C52991AE20EBE3D1D8F099117D /* Frameworks */,
-				7327029418A0E179D5ECB0B5D4A0CA9D /* Resources */,
+				27459703A7D94D1B157ED0A5AB590ED9 /* Headers */,
+				6C7F67C8AC31B45DE7626ACBB5492940 /* Sources */,
+				17BCDEB875C98993EDDA16F32DAE64BC /* Frameworks */,
+				A81B9E75B906EBE658584E7F6F42BD7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0EA9C00F6A9D52269E58839EC4762A10 /* PBXTargetDependency */,
-				721F1329D309FC7B55CE09E632B79838 /* PBXTargetDependency */,
+				33DF5B5485A21D1208ECFF4A3D022365 /* PBXTargetDependency */,
+				B47D9883826D2E4C7742B138BCE6A21A /* PBXTargetDependency */,
 			);
 			name = TUKit;
 			productName = TUKit;
@@ -1277,16 +1281,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2235075B663205B581BEE48E2C27D1BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32279C05797A26D7C72FFFF9D894C3D9 /* loading_slices.png in Resources */,
-				D9A50EB9B546B3F4EC272DA647F45D71 /* loading_slices@2x.png in Resources */,
-				CC6E9ADF63B929ED931E2CF14905273B /* loading_slices@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		34011600D72DD04AC12C96367136E94B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1308,11 +1302,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7327029418A0E179D5ECB0B5D4A0CA9D /* Resources */ = {
+		6581C0EB6BD4260D51870DB63E744AB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BCEC2D03B513C4E94EED9203D20B5A /* TUView.bundle in Resources */,
+				683035C156788D8CEFA8E2BD752CA684 /* loading_slices.png in Resources */,
+				B4ED7DE053C66F05E9EA61CB9C64C92A /* loading_slices@2x.png in Resources */,
+				3D0D779658FD9284759A549F63AD294E /* loading_slices@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A81B9E75B906EBE658584E7F6F42BD7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ED8A2DF2F3B6CAA21EE23B00998367 /* TUView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1341,6 +1345,38 @@
 				B27CA77724EE492D67D5A6EEF3C04B83 /* SPTSpec.m in Sources */,
 				93076F6F0B96EAD80F67BC760A3FC0AD /* SPTTestSuite.m in Sources */,
 				88B1F2202F8E1BA69FF9FFD599C71A53 /* XCTestCase+Specta.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7F67C8AC31B45DE7626ACBB5492940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B025B7CCD848D7FB547328455E7FBFD8 /* TBaseCollectionReusableView.m in Sources */,
+				BBE30A33C548B627C1EACE325561649B /* TBaseCollectionView.m in Sources */,
+				90792E187DB49FB7EB2545145C6F0134 /* TBaseCollectionViewCell.m in Sources */,
+				83407C28EB9ED511E742041C38E2175E /* TBaseTabBarItem.m in Sources */,
+				5E714B8DDDB8E4C2708862120685978B /* TBaseTabBarView.m in Sources */,
+				37722BC5D2AEFB40966DA4D5017C6612 /* TBaseTableView.m in Sources */,
+				FA1529A757C76E4AC7CE45D9D53D315C /* TBaseTableViewCell.m in Sources */,
+				258594675FA6FA4B90872375FF1B4856 /* TBaseTableViewHeaderFooterView.m in Sources */,
+				7F061DEF6DC65786AD7301D403716B05 /* TBaseView+Create.m in Sources */,
+				7AC3ABFDF58B754FA4E7C12501AAE238 /* TBaseView.m in Sources */,
+				BF1391CC6EFB41634C91D777EEC078FB /* TBaseViewController.m in Sources */,
+				C768061A897112191668B071E3564550 /* TBorder.m in Sources */,
+				FF6FDF543DBFEC894CD7B860CCB27B88 /* TCollectionViewLeftAlignedLayout.m in Sources */,
+				AF45C2E7C53FC199E98F366F58408DD6 /* TColor.m in Sources */,
+				DEBFFA80F6E09D7C5FCF0FB4C51A1302 /* TConstraintHelper.m in Sources */,
+				8DC96BB01A1A7609446D7BBE3DEC86BA /* TFont.m in Sources */,
+				1192467D92251C8CF24AFBF6FA3437A0 /* TLoadingView.m in Sources */,
+				2AE51A46545F52B9A9CA5EEA9F741FEC /* TTimeCountLabel.m in Sources */,
+				796B976C7EFD25F8DB022BFCF58A9527 /* TUKit-dummy.m in Sources */,
+				762ADF5FDDC4C07AC6A3DCDC9E644452 /* UIButton+Addation.m in Sources */,
+				BCE5303742D60A6C5C17D5652F4A2C03 /* UIImage+Addition.m in Sources */,
+				1EADC33C44C47C293DB516AEF3D20676 /* UINib+Create.m in Sources */,
+				FDD346E383D0F5BF7767AE8576C69289 /* UITextView+TUKit.m in Sources */,
+				6607CE48F1DA3A88614E3ED4BB319E2B /* UIView+TUKit.m in Sources */,
+				36C2C9BEF3CBE652909B60F4C7CF30B8 /* UIViewController+TUKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1394,35 +1430,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C082936702DCCE502D33E1F5A42EEE7D /* Sources */ = {
+		BFDA36196CEDF2DD3BD5A4C3E4FCC60A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E1CED2DE5A2E837EA94B2B7183DE3D7 /* TBaseCollectionReusableView.m in Sources */,
-				00DB8C4EB9638BC7FBDE1F49D73347BE /* TBaseCollectionView.m in Sources */,
-				61B40404417CB6BB5E86DFF4919CA716 /* TBaseCollectionViewCell.m in Sources */,
-				F04814F5C6C3C54E366E68CF7E86CB37 /* TBaseTabBarItem.m in Sources */,
-				47BD57A6CC33956CFD8D7A0DC98DB65C /* TBaseTabBarView.m in Sources */,
-				ACC924902872D30AE427B07102B8C2B1 /* TBaseTableView.m in Sources */,
-				E17F7A5F0B6750BA0D91C08863A4244B /* TBaseTableViewCell.m in Sources */,
-				DD4A8E41DE6E0E48E8EDBEC0A6DC21F9 /* TBaseTableViewHeaderFooterView.m in Sources */,
-				18A905D14579BB4482C8CE7A8168AA7D /* TBaseView+Create.m in Sources */,
-				C9CFEA96E4FA02883D1E3651365F1239 /* TBaseView.m in Sources */,
-				F44845BFE68FDB9D32C2C4B2C18FEAFF /* TBaseViewController.m in Sources */,
-				A297B3335D4DD46D955157896936E611 /* TBorder.m in Sources */,
-				47843E86FB855A84D03F08FA99E8253B /* TCollectionViewLeftAlignedLayout.m in Sources */,
-				1B2619885B6A7478A4FBE102D5292BED /* TColor.m in Sources */,
-				FBA2C648522BF4041AB6D67C6E3B5279 /* TConstraintHelper.m in Sources */,
-				CB3708378F771F7265F07938DACD06EF /* TFont.m in Sources */,
-				3CD8C46A6067AD9E4E9D536E34C69380 /* TLoadingView.m in Sources */,
-				392F60B210545F92498C2F18BDC31DAF /* TTimeCountLabel.m in Sources */,
-				94E09DC9C06EA80B2B630680B7AE5F17 /* TUKit-dummy.m in Sources */,
-				A72E754F5E26115DA7CF976BAE276346 /* UIButton+Addation.m in Sources */,
-				C3F2057ECABF1274D2F7918496E33716 /* UIImage+Addition.m in Sources */,
-				93AAB586888C3D6CED29EBFFCC704C0A /* UINib+Create.m in Sources */,
-				07B95A2EA86E19A6E7CDD29E8492491C /* UITextView+TUKit.m in Sources */,
-				95EB106BCF18916D2AB48214663B9E85 /* UIView+TUKit.m in Sources */,
-				0D20A848EB5313922CABA1747D9116A1 /* UIViewController+TUKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1443,21 +1454,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4EFE68400EFF6F7EE93D7B7B676DA56 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0EA9C00F6A9D52269E58839EC4762A10 /* PBXTargetDependency */ = {
+		33DF5B5485A21D1208ECFF4A3D022365 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
-			targetProxy = 6602FFD4A90EB6B7ECEF3AB1C3B67563 /* PBXContainerItemProxy */;
+			targetProxy = 63D67BAA86049FF7ABA4214E44B9CF36 /* PBXContainerItemProxy */;
 		};
 		45AFFA971A67390810DB3490C41F27B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1465,17 +1469,17 @@
 			target = DC371B7477C88184274EC6710690F97C /* Expecta */;
 			targetProxy = 3840931323F66BA52DB3810042000C78 /* PBXContainerItemProxy */;
 		};
-		721F1329D309FC7B55CE09E632B79838 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TUKit-TUView";
-			target = 89CCA3E89513DDD2E6E4A77D0ADD3FF2 /* TUKit-TUView */;
-			targetProxy = 294CD97327C15B04754399CBC5196046 /* PBXContainerItemProxy */;
-		};
 		87F3376EC9741A90DE2BB7E8A188E945 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
 			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
 			targetProxy = 054AAA72957A04BB27325652C80DDB48 /* PBXContainerItemProxy */;
+		};
+		B47D9883826D2E4C7742B138BCE6A21A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TUKit-TUView";
+			target = 89CCA3E89513DDD2E6E4A77D0ADD3FF2 /* TUKit-TUView */;
+			targetProxy = 1547ED8E69277D92A3B18E2E0B3A6343 /* PBXContainerItemProxy */;
 		};
 		DAFA91228AC3DD3DA6AFAAEDE1301AAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1519,6 +1523,38 @@
 				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = MBProgressHUD;
 				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0C0AE78AC2537BE75DA0251A73644501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A179B23C1D7F6A9AA959EA599FD549EF /* TUKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TUKit/TUKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUKit/TUKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TUKit/TUKit.modulemap";
+				PRODUCT_MODULE_NAME = TUKit;
+				PRODUCT_NAME = TUKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1813,37 +1849,22 @@
 			};
 			name = Debug;
 		};
-		A773BA601E7697F007BD5FC72C4FC52C /* Release */ = {
+		AB1EE638F53CF7177DA0FBF5A3CFD668 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DEECBAB463FB26B6DEF36E078F43B3F /* TUKit.xcconfig */;
+			baseConfigurationReference = A179B23C1D7F6A9AA959EA599FD549EF /* TUKit.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TUKit/TUKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TUKit/TUKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUKit";
+				IBSC_MODULE = TUKit;
+				INFOPLIST_FILE = "Target Support Files/TUKit/ResourceBundle-TUView-TUKit-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TUKit/TUKit.modulemap";
-				PRODUCT_MODULE_NAME = TUKit;
-				PRODUCT_NAME = TUKit;
+				PRODUCT_NAME = TUView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		ADD40C5355361C5830869CC682312417 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1872,54 +1893,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B2384E877D774E6643A4397ACC26DEB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DEECBAB463FB26B6DEF36E078F43B3F /* TUKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUKit";
-				IBSC_MODULE = TUKit;
-				INFOPLIST_FILE = "Target Support Files/TUKit/ResourceBundle-TUView-TUKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = TUView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		D052024DE66827AF469105CC7C4CBD6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DEECBAB463FB26B6DEF36E078F43B3F /* TUKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TUKit/TUKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TUKit/TUKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TUKit/TUKit.modulemap";
-				PRODUCT_MODULE_NAME = TUKit;
-				PRODUCT_NAME = TUKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1991,20 +1964,34 @@
 			};
 			name = Release;
 		};
-		E4785128BA58E99A0D18A62F9931AF0F /* Debug */ = {
+		EAEA899D309FF2AEA8E50DBEB4FBF090 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DEECBAB463FB26B6DEF36E078F43B3F /* TUKit.xcconfig */;
+			baseConfigurationReference = A179B23C1D7F6A9AA959EA599FD549EF /* TUKit.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUKit";
-				IBSC_MODULE = TUKit;
-				INFOPLIST_FILE = "Target Support Files/TUKit/ResourceBundle-TUView-TUKit-Info.plist";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TUKit/TUKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUKit/TUKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = TUView;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TUKit/TUKit.modulemap";
+				PRODUCT_MODULE_NAME = TUKit;
+				PRODUCT_NAME = TUKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -2042,9 +2029,35 @@
 			};
 			name = Release;
 		};
+		F9BF8AA7779C2E989BA02E37D346F4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A179B23C1D7F6A9AA959EA599FD549EF /* TUKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUKit";
+				IBSC_MODULE = TUKit;
+				INFOPLIST_FILE = "Target Support Files/TUKit/ResourceBundle-TUView-TUKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TUView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		34B372EE15C1A88C674A646C20E62703 /* Build configuration list for PBXNativeTarget "TUKit-TUView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1EE638F53CF7177DA0FBF5A3CFD668 /* Debug */,
+				F9BF8AA7779C2E989BA02E37D346F4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2090,20 +2103,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7037ED4DECF6E5C1AE6ED4F3D012107 /* Build configuration list for PBXNativeTarget "TUKit" */ = {
+		BB4980EA85FCB31BA26FFD6D42BD3523 /* Build configuration list for PBXNativeTarget "TUKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D052024DE66827AF469105CC7C4CBD6F /* Debug */,
-				A773BA601E7697F007BD5FC72C4FC52C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C2AEDA4672A8C3E8E4451CAC599859C5 /* Build configuration list for PBXNativeTarget "TUKit-TUView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4785128BA58E99A0D18A62F9931AF0F /* Debug */,
-				B2384E877D774E6643A4397ACC26DEB5 /* Release */,
+				EAEA899D309FF2AEA8E50DBEB4FBF090 /* Debug */,
+				0C0AE78AC2537BE75DA0251A73644501 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

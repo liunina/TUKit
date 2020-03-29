@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.00563">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="01: default_platform" time="0.001415">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: import_from_git" time="0.189459">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: git_pull" time="0.105978">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: ensure_git_branch" time="0.011735">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.002849">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: cocoapods" time="10.423078">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: git_add" time="0.032544">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: git_commit" time="0.049818">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: push_to_git_remote" time="1.68467">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: git_tag_exists" time="0.013123">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: add_git_tag" time="0.017913">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: push_git_tags" time="1.910079">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="13: pod_lib_lint" time="68.593971">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="14: pod_push" time="76.32386">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
