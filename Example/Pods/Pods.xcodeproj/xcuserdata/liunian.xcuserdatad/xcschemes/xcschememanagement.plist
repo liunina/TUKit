@@ -29,10 +29,15 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TUKit-TUView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>TUKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

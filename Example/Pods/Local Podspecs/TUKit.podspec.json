@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of TUKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/i19850511@gmail.com/TUKit",
+  "homepage": "http://nas.iliunian.com:82/apple/TUKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,18 +12,90 @@
     "i19850511@gmail.com": "i19850511@gmail.com"
   },
   "source": {
-    "git": "https://github.com/i19850511@gmail.com/TUKit.git",
+    "git": "http://nas.iliunian.com:82/apple/TUKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TUKit/**/*",
-  "resources": "TUKit/View/TUView.bundle",
   "public_header_files": "Pod/TUKit.h",
+  "frameworks": "UIKit",
   "dependencies": {
     "MBProgressHUD": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Macro",
+      "public_header_files": "TUKit/Macro/*.h",
+      "source_files": "TUKit/Macro/**/*"
+    },
+    {
+      "name": "Color",
+      "public_header_files": "TUKit/Color/*.h",
+      "source_files": "TUKit/Color/**/*"
+    },
+    {
+      "name": "Font",
+      "public_header_files": "TUKit/Font/*.h",
+      "source_files": "TUKit/Font/**/*"
+    },
+    {
+      "name": "Image",
+      "public_header_files": "TUKit/Image/*.h",
+      "source_files": "TUKit/Image/**/*"
+    },
+    {
+      "name": "View",
+      "dependencies": {
+        "MBProgressHUD": [
+
+        ],
+        "TUKit/Color": [
+
+        ],
+        "TUKit/Font": [
+
+        ]
+      },
+      "public_header_files": "TUKit/View/*.h",
+      "source_files": "TUKit/View/**/*.{h,m}",
+      "resource_bundles": {
+        "TUView": [
+          "TUKit/View/Assets/*"
+        ]
+      }
+    },
+    {
+      "name": "Label",
+      "public_header_files": "TUKit/Label/*.h",
+      "source_files": "TUKit/Label/**/*"
+    },
+    {
+      "name": "TextView",
+      "public_header_files": "TUKit/TextView/*.h",
+      "source_files": "TUKit/TextView/**/*"
+    },
+    {
+      "name": "TableView",
+      "public_header_files": "TUKit/TableView/*.h",
+      "source_files": "TUKit/TableView/**/*"
+    },
+    {
+      "name": "CollectionView",
+      "public_header_files": "TUKit/CollectionView/*.h",
+      "source_files": "TUKit/CollectionView/**/*"
+    },
+    {
+      "name": "ViewController",
+      "dependencies": {
+        "TUKit/View": [
+
+        ]
+      },
+      "public_header_files": "TUKit/ViewController/*.h",
+      "source_files": "TUKit/ViewController/**/*"
+    }
+  ]
 }

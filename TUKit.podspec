@@ -1,42 +1,77 @@
-#
-# Be sure to run `pod lib lint TUKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'TUKit'
   s.version          = '0.1.0'
   s.summary          = 'A short description of TUKit.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/i19850511@gmail.com/TUKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'http://nas.iliunian.com:82/apple/TUKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'i19850511@gmail.com' => 'i19850511@gmail.com' }
-  s.source           = { :git => 'https://github.com/i19850511@gmail.com/TUKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'http://nas.iliunian.com:82/apple/TUKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TUKit/**/*'
-  s.resource = 'TUKit/View/TUView.bundle'
-  # s.resource_bundles = {
-  #   'TUKit' => ['TUKit/Assets/*.png']
-  # }
-
    s.public_header_files = 'Pod/TUKit.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
    s.dependency 'MBProgressHUD'
+   
+   s.subspec 'Macro' do |ss|
+	   ss.public_header_files = 'TUKit/Macro/*.h'
+	   ss.source_files = 'TUKit/Macro/**/*'
+   end
+   
+   s.subspec 'Color' do |ss|
+	   ss.public_header_files = 'TUKit/Color/*.h'
+	   ss.source_files = 'TUKit/Color/**/*'
+   end
+   
+   s.subspec 'Font' do |ss|
+	   ss.public_header_files = 'TUKit/Font/*.h'
+	   ss.source_files = 'TUKit/Font/**/*'
+   end
+   
+   s.subspec 'Image' do |ss|
+		ss.public_header_files = 'TUKit/Image/*.h'
+		ss.source_files = 'TUKit/Image/**/*'
+   end
+   
+   s.subspec 'View' do |ss|
+	   ss.dependency 'MBProgressHUD'
+	   ss.dependency 'TUKit/Color'
+	   ss.dependency 'TUKit/Font'
+	   ss.public_header_files = 'TUKit/View/*.h'
+	   ss.source_files = 'TUKit/View/**/*.{h,m}'
+	   ss.resource_bundles = {
+		 'TUView' => ['TUKit/View/Assets/*']
+	   }
+   end
+   
+   s.subspec 'Label' do |ss|
+		 ss.public_header_files = 'TUKit/Label/*.h'
+		 ss.source_files = 'TUKit/Label/**/*'
+   end
+   
+   s.subspec 'TextView' do |ss|
+		 ss.public_header_files = 'TUKit/TextView/*.h'
+		 ss.source_files = 'TUKit/TextView/**/*'
+   end
+   
+   s.subspec 'TableView' do |ss|
+		ss.public_header_files = 'TUKit/TableView/*.h'
+		ss.source_files = 'TUKit/TableView/**/*'
+   end
+   
+   s.subspec 'CollectionView' do |ss|
+	   ss.public_header_files = 'TUKit/CollectionView/*.h'
+	   ss.source_files = 'TUKit/CollectionView/**/*'
+   end
+   
+   s.subspec 'ViewController' do |ss|
+	   ss.dependency 'TUKit/View'
+	   ss.public_header_files = 'TUKit/ViewController/*.h'
+	   ss.source_files = 'TUKit/ViewController/**/*'
+	end
 end
