@@ -1,6 +1,6 @@
 {
   "name": "TUKit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of TUKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "http://nas.iliunian.com:82/apple/TUKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "http://nas.iliunian.com:82/apple/TUKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,11 +21,6 @@
   "public_header_files": "Pod/TUKit.h",
   "source_files": "TUKit/*.h",
   "frameworks": "UIKit",
-  "dependencies": {
-    "MBProgressHUD": [
-
-    ]
-  },
   "subspecs": [
     {
       "name": "Macro",
@@ -50,6 +45,9 @@
     {
       "name": "View",
       "dependencies": {
+        "Masonry": [
+
+        ],
         "MBProgressHUD": [
 
         ],
@@ -80,11 +78,21 @@
     },
     {
       "name": "TableView",
+      "dependencies": {
+        "Masonry": [
+
+        ]
+      },
       "public_header_files": "TUKit/TableView/*.h",
       "source_files": "TUKit/TableView/**/*"
     },
     {
       "name": "CollectionView",
+      "dependencies": {
+        "Masonry": [
+
+        ]
+      },
       "public_header_files": "TUKit/CollectionView/*.h",
       "source_files": "TUKit/CollectionView/**/*"
     },
@@ -97,6 +105,16 @@
       },
       "public_header_files": "TUKit/ViewController/*.h",
       "source_files": "TUKit/ViewController/**/*"
+    },
+    {
+      "name": "Alert",
+      "dependencies": {
+        "TUKit/ViewController": [
+
+        ]
+      },
+      "public_header_files": "TUKit/Alert/*.h",
+      "source_files": "TUKit/Alert/**/*"
     }
   ]
 }

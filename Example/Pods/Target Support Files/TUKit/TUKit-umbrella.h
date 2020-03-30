@@ -11,6 +11,9 @@
 #endif
 
 #import "TUKit.h"
+#import "TAlertAction.h"
+#import "TAlertButton.h"
+#import "TAlertController.h"
 #import "TBaseCollectionReusableView.h"
 #import "TBaseCollectionView.h"
 #import "TBaseCollectionViewCell.h"

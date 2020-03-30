@@ -1,41 +1,38 @@
 PODS:
   - Expecta (1.0.6)
+  - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - Specta (1.0.7)
-  - TUKit (0.1.1):
-    - MBProgressHUD
-    - TUKit/CollectionView (= 0.1.1)
-    - TUKit/Color (= 0.1.1)
-    - TUKit/Font (= 0.1.1)
-    - TUKit/Image (= 0.1.1)
-    - TUKit/Label (= 0.1.1)
-    - TUKit/Macro (= 0.1.1)
-    - TUKit/TableView (= 0.1.1)
-    - TUKit/TextView (= 0.1.1)
-    - TUKit/View (= 0.1.1)
-    - TUKit/ViewController (= 0.1.1)
-  - TUKit/CollectionView (0.1.1):
-    - MBProgressHUD
-  - TUKit/Color (0.1.1):
-    - MBProgressHUD
-  - TUKit/Font (0.1.1):
-    - MBProgressHUD
-  - TUKit/Image (0.1.1):
-    - MBProgressHUD
-  - TUKit/Label (0.1.1):
-    - MBProgressHUD
-  - TUKit/Macro (0.1.1):
-    - MBProgressHUD
-  - TUKit/TableView (0.1.1):
-    - MBProgressHUD
-  - TUKit/TextView (0.1.1):
-    - MBProgressHUD
-  - TUKit/View (0.1.1):
+  - TUKit (0.1.2):
+    - TUKit/Alert (= 0.1.2)
+    - TUKit/CollectionView (= 0.1.2)
+    - TUKit/Color (= 0.1.2)
+    - TUKit/Font (= 0.1.2)
+    - TUKit/Image (= 0.1.2)
+    - TUKit/Label (= 0.1.2)
+    - TUKit/Macro (= 0.1.2)
+    - TUKit/TableView (= 0.1.2)
+    - TUKit/TextView (= 0.1.2)
+    - TUKit/View (= 0.1.2)
+    - TUKit/ViewController (= 0.1.2)
+  - TUKit/Alert (0.1.2):
+    - TUKit/ViewController
+  - TUKit/CollectionView (0.1.2):
+    - Masonry
+  - TUKit/Color (0.1.2)
+  - TUKit/Font (0.1.2)
+  - TUKit/Image (0.1.2)
+  - TUKit/Label (0.1.2)
+  - TUKit/Macro (0.1.2)
+  - TUKit/TableView (0.1.2):
+    - Masonry
+  - TUKit/TextView (0.1.2)
+  - TUKit/View (0.1.2):
+    - Masonry
     - MBProgressHUD
     - TUKit/Color
     - TUKit/Font
-  - TUKit/ViewController (0.1.1):
-    - MBProgressHUD
+  - TUKit/ViewController (0.1.2):
     - TUKit/View
 
 DEPENDENCIES:
@@ -46,6 +43,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Expecta
+    - Masonry
     - MBProgressHUD
     - Specta
 
@@ -55,9 +53,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  TUKit: e5ba56d76dfe2dc010ce53529232a0e16b75c886
+  TUKit: e5e7da3762a468e2de2dea376d16531d51e789bf
 
 PODFILE CHECKSUM: 18889d16754e1f9cb7132aa76459f6c7a31e3954
 

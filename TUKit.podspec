@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TUKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of TUKit.'
 
   s.description      = <<-DESC
@@ -17,8 +17,7 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'Pod/TUKit.h'
   s.source_files = 'TUKit/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'MBProgressHUD'
-   
+  
   s.subspec 'Macro' do |ss|
 	  ss.public_header_files = 'TUKit/Macro/*.h'
 	  ss.source_files = 'TUKit/Macro/**/*'
@@ -35,11 +34,12 @@ TODO: Add long description of the pod here.
    end
    
    s.subspec 'Image' do |ss|
-		ss.public_header_files = 'TUKit/Image/*.h'
-		ss.source_files = 'TUKit/Image/**/*'
+	   ss.public_header_files = 'TUKit/Image/*.h'
+	   ss.source_files = 'TUKit/Image/**/*'
    end
    
    s.subspec 'View' do |ss|
+	   ss.dependency 'Masonry'
 	   ss.dependency 'MBProgressHUD'
 	   ss.dependency 'TUKit/Color'
 	   ss.dependency 'TUKit/Font'
@@ -51,21 +51,23 @@ TODO: Add long description of the pod here.
    end
    
    s.subspec 'Label' do |ss|
-		 ss.public_header_files = 'TUKit/Label/*.h'
-		 ss.source_files = 'TUKit/Label/**/*'
+	   ss.public_header_files = 'TUKit/Label/*.h'
+	   ss.source_files = 'TUKit/Label/**/*'
    end
    
    s.subspec 'TextView' do |ss|
-		 ss.public_header_files = 'TUKit/TextView/*.h'
-		 ss.source_files = 'TUKit/TextView/**/*'
+	   ss.public_header_files = 'TUKit/TextView/*.h'
+	   ss.source_files = 'TUKit/TextView/**/*'
    end
    
    s.subspec 'TableView' do |ss|
-		ss.public_header_files = 'TUKit/TableView/*.h'
-		ss.source_files = 'TUKit/TableView/**/*'
+	   ss.dependency 'Masonry'
+	   ss.public_header_files = 'TUKit/TableView/*.h'
+	   ss.source_files = 'TUKit/TableView/**/*'
    end
    
    s.subspec 'CollectionView' do |ss|
+	   ss.dependency 'Masonry'
 	   ss.public_header_files = 'TUKit/CollectionView/*.h'
 	   ss.source_files = 'TUKit/CollectionView/**/*'
    end
@@ -74,5 +76,12 @@ TODO: Add long description of the pod here.
 	   ss.dependency 'TUKit/View'
 	   ss.public_header_files = 'TUKit/ViewController/*.h'
 	   ss.source_files = 'TUKit/ViewController/**/*'
-	end
+   end
+   
+   s.subspec 'Alert' do |ss|
+	   ss.dependency 'TUKit/ViewController'
+	   ss.public_header_files = 'TUKit/Alert/*.h'
+	   ss.source_files = 'TUKit/Alert/**/*'
+   end
+   
 end
