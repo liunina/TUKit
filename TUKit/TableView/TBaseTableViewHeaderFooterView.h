@@ -15,9 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)cellReuseIdentifier;
 
-- (void)updateWithCellData:(id)aData;
+- (void)updateWithCellData:(id _Nullable)aData;
 
-+ (CGFloat)heightForCellData:(id)aData;
++ (CGFloat)heightForCellData:(id _Nullable)aData;
 
 @end
 

@@ -32,11 +32,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 功能:cell根据数据显示ui
 /// @param aData cell数据
-- (void)updateWithCellData:(id)aData;
+- (void)updateWithCellData:(id _Nullable)aData;
 
 /// 功能:获取cell的大小
 /// @param aData cell的数据
-+ (CGSize)sizeForCellData:(id)aData;
++ (CGSize)sizeForCellData:(id _Nullable)aData;
 @end
 
 NS_ASSUME_NONNULL_END

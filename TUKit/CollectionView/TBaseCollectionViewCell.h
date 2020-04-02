@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *	@param aData cell数据
  */
-- (void)updateWithCellData:(id)aData;
+- (void)updateWithCellData:(id _Nullable)aData;
 
 /**
  *	功能:cell根据数据和位置显示ui
@@ -37,11 +37,11 @@ NS_ASSUME_NONNULL_BEGIN
  *	@param aData cell数据
  *	@param indexPath cell位置
  */
-- (void)updateWithCellData:(id)aData atIndexPath:(NSIndexPath *)indexPath;
+- (void)updateWithCellData:(id _Nullable)aData atIndexPath:(NSIndexPath *)indexPath;
 
 /// 功能:获取cell的大小
 /// @param aData cell的数据
-+ (CGSize)sizeForCellData:(id)aData;
++ (CGSize)sizeForCellData:(id _Nullable)aData;
 
 @end
 

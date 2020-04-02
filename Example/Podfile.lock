@@ -3,36 +3,36 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - Specta (1.0.7)
-  - TUKit (0.1.3):
-    - TUKit/Alert (= 0.1.3)
-    - TUKit/CollectionView (= 0.1.3)
-    - TUKit/Color (= 0.1.3)
-    - TUKit/Font (= 0.1.3)
-    - TUKit/Image (= 0.1.3)
-    - TUKit/Label (= 0.1.3)
-    - TUKit/Macro (= 0.1.3)
-    - TUKit/TableView (= 0.1.3)
-    - TUKit/TextView (= 0.1.3)
-    - TUKit/View (= 0.1.3)
-    - TUKit/ViewController (= 0.1.3)
-  - TUKit/Alert (0.1.3):
+  - TUKit (0.1.4):
+    - TUKit/Alert (= 0.1.4)
+    - TUKit/CollectionView (= 0.1.4)
+    - TUKit/Color (= 0.1.4)
+    - TUKit/Font (= 0.1.4)
+    - TUKit/Image (= 0.1.4)
+    - TUKit/Label (= 0.1.4)
+    - TUKit/Macro (= 0.1.4)
+    - TUKit/TableView (= 0.1.4)
+    - TUKit/TextView (= 0.1.4)
+    - TUKit/View (= 0.1.4)
+    - TUKit/ViewController (= 0.1.4)
+  - TUKit/Alert (0.1.4):
     - TUKit/ViewController
-  - TUKit/CollectionView (0.1.3):
+  - TUKit/CollectionView (0.1.4):
     - Masonry
-  - TUKit/Color (0.1.3)
-  - TUKit/Font (0.1.3)
-  - TUKit/Image (0.1.3)
-  - TUKit/Label (0.1.3)
-  - TUKit/Macro (0.1.3)
-  - TUKit/TableView (0.1.3):
+  - TUKit/Color (0.1.4)
+  - TUKit/Font (0.1.4)
+  - TUKit/Image (0.1.4)
+  - TUKit/Label (0.1.4)
+  - TUKit/Macro (0.1.4)
+  - TUKit/TableView (0.1.4):
     - Masonry
-  - TUKit/TextView (0.1.3)
-  - TUKit/View (0.1.3):
+  - TUKit/TextView (0.1.4)
+  - TUKit/View (0.1.4):
     - Masonry
     - MBProgressHUD
     - TUKit/Color
     - TUKit/Font
-  - TUKit/ViewController (0.1.3):
+  - TUKit/ViewController (0.1.4):
     - TUKit/View
 
 DEPENDENCIES:
@@ -56,7 +56,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  TUKit: b2498dde51e38b729b348ecec07a951ff226c3bd
+  TUKit: 4e7061d9783b9ed7752eda477ca2370c6838fca1
 
 PODFILE CHECKSUM: 18889d16754e1f9cb7132aa76459f6c7a31e3954
 
