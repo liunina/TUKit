@@ -6,20 +6,17 @@
 //
 
 #import "UIImageView+TWebCache.h"
-#import "UIImage+Addition.h"
-#import "TColor.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <objc/runtime.h>
+#import "UIImage+Addition.h"
+#import "TColor.h"
 
 static char TAG_LOADING_GRADIENT;
-
-@interface UIImageView (Private)
-- (void)addLoading;
-- (void)removeLoading;
+@interface UIImageView ()
+@property (nonatomic, strong) CAGradientLayer *loadingGradientLayer;
 @end
 
 @implementation UIImageView (TWebCache)
-@dynamic loadingGradientLayer;
 
 - (CAGradientLayer *)loadingGradientLayer {
     return (CAGradientLayer *)objc_getAssociatedObject(self, &TAG_LOADING_GRADIENT);

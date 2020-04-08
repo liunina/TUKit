@@ -10,8 +10,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImageView (TWebCache)
-@property (nonatomic, strong) CAGradientLayer *loadingGradientLayer;
-
 - (void)t_setImageWithURL:(NSURL *)url;
 - (void)t_setImageWithURL:(NSURL *)url placeholderImage:(UIImage * _Nullable)placeholder;
 @end
