@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TUKit'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of TUKit.'
 
   s.description      = <<-DESC
@@ -36,6 +36,14 @@ TODO: Add long description of the pod here.
    s.subspec 'Image' do |ss|
 	   ss.public_header_files = 'TUKit/Image/*.h'
 	   ss.source_files = 'TUKit/Image/**/*'
+   end
+   
+   s.subspec 'ImageView' do |ss|
+	   ss.dependency 'SDWebImage'
+	   ss.dependency 'TUKit/Image'
+	   ss.dependency 'TUKit/Color'
+	   ss.public_header_files = 'TUKit/ImageView/*.h'
+	   ss.source_files = 'TUKit/ImageView/**/*'
    end
    
    s.subspec 'View' do |ss|

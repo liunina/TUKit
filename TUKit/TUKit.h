@@ -35,6 +35,7 @@
 #import <TUKit/UITextView+TUKit.h>
 
 #import <TUKit/UIImage+Addition.h>
+#import <TUKit/UIImageView+TWebCache.h>
 
 #import <TUKit/TBaseViewController.h>
 #import <TUKit/UIViewController+TUKit.h>

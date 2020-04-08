@@ -2,37 +2,45 @@ PODS:
   - Expecta (1.0.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
+  - SDWebImage (5.7.0):
+    - SDWebImage/Core (= 5.7.0)
+  - SDWebImage/Core (5.7.0)
   - Specta (1.0.7)
-  - TUKit (0.1.4):
-    - TUKit/Alert (= 0.1.4)
-    - TUKit/CollectionView (= 0.1.4)
-    - TUKit/Color (= 0.1.4)
-    - TUKit/Font (= 0.1.4)
-    - TUKit/Image (= 0.1.4)
-    - TUKit/Label (= 0.1.4)
-    - TUKit/Macro (= 0.1.4)
-    - TUKit/TableView (= 0.1.4)
-    - TUKit/TextView (= 0.1.4)
-    - TUKit/View (= 0.1.4)
-    - TUKit/ViewController (= 0.1.4)
-  - TUKit/Alert (0.1.4):
+  - TUKit (0.1.5):
+    - TUKit/Alert (= 0.1.5)
+    - TUKit/CollectionView (= 0.1.5)
+    - TUKit/Color (= 0.1.5)
+    - TUKit/Font (= 0.1.5)
+    - TUKit/Image (= 0.1.5)
+    - TUKit/ImageView (= 0.1.5)
+    - TUKit/Label (= 0.1.5)
+    - TUKit/Macro (= 0.1.5)
+    - TUKit/TableView (= 0.1.5)
+    - TUKit/TextView (= 0.1.5)
+    - TUKit/View (= 0.1.5)
+    - TUKit/ViewController (= 0.1.5)
+  - TUKit/Alert (0.1.5):
     - TUKit/ViewController
-  - TUKit/CollectionView (0.1.4):
+  - TUKit/CollectionView (0.1.5):
     - Masonry
-  - TUKit/Color (0.1.4)
-  - TUKit/Font (0.1.4)
-  - TUKit/Image (0.1.4)
-  - TUKit/Label (0.1.4)
-  - TUKit/Macro (0.1.4)
-  - TUKit/TableView (0.1.4):
+  - TUKit/Color (0.1.5)
+  - TUKit/Font (0.1.5)
+  - TUKit/Image (0.1.5)
+  - TUKit/ImageView (0.1.5):
+    - SDWebImage
+    - TUKit/Color
+    - TUKit/Image
+  - TUKit/Label (0.1.5)
+  - TUKit/Macro (0.1.5)
+  - TUKit/TableView (0.1.5):
     - Masonry
-  - TUKit/TextView (0.1.4)
-  - TUKit/View (0.1.4):
+  - TUKit/TextView (0.1.5)
+  - TUKit/View (0.1.5):
     - Masonry
     - MBProgressHUD
     - TUKit/Color
     - TUKit/Font
-  - TUKit/ViewController (0.1.4):
+  - TUKit/ViewController (0.1.5):
     - TUKit/View
 
 DEPENDENCIES:
@@ -41,10 +49,11 @@ DEPENDENCIES:
   - TUKit (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - Expecta
     - Masonry
     - MBProgressHUD
+    - SDWebImage
     - Specta
 
 EXTERNAL SOURCES:
@@ -55,9 +64,10 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: a99471f452bdfa0ca52ddf5b1adf2b61cab1d1eb
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  TUKit: 4e7061d9783b9ed7752eda477ca2370c6838fca1
+  TUKit: 1c4fcd244d8a53dc46a76b8e0825a23cf0d2a66e
 
-PODFILE CHECKSUM: 18889d16754e1f9cb7132aa76459f6c7a31e3954
+PODFILE CHECKSUM: e284d086a4be95e0464643d9d533de6b80706188
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

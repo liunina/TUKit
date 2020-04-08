@@ -98,7 +98,11 @@
 @implementation UIImage (tool)
 
 + (UIImage *)imageWithColor:(UIColor *)aColor {
-	CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+	return [self imageWithColor:aColor imageSize:CGSizeMake(1, 1)];
+}
+
++ (UIImage *)imageWithColor:(UIColor *)aColor imageSize:(CGSize)imageSize {
+	CGRect rect = CGRectMake(0.0f, 0.0f, imageSize.width, imageSize.height);
 	UIGraphicsBeginImageContext(rect.size);
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	CGContextSetFillColorWithColor(context, [aColor CGColor]);

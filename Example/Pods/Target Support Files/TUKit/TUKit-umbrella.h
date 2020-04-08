@@ -21,6 +21,7 @@
 #import "TColor.h"
 #import "TFont.h"
 #import "UIImage+Addition.h"
+#import "UIImageView+TWebCache.h"
 #import "TTimeCountLabel.h"
 #import "TUMacro.h"
 #import "TBaseTableView.h"

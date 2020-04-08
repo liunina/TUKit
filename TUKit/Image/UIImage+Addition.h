@@ -38,6 +38,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param aColor 颜色
 + (UIImage *)imageWithColor:(UIColor *)aColor;
 
+/// 通过制定颜色和size生成图片
+/// @param aColor 颜色
+/// @param imageSize size
+
++ (UIImage *)imageWithColor:(UIColor *)aColor imageSize:(CGSize)imageSize;
+
 + (UIImage *)imageWithColor:(UIColor *)aColor cornerRadius:(float)cornerRadius;
 
 /// 视图转换为UIImage
