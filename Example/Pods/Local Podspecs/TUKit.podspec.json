@@ -1,6 +1,6 @@
 {
   "name": "TUKit",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "A short description of TUKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "http://nas.iliunian.com:82/apple/TUKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "http://nas.iliunian.com:82/apple/TUKit.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "9.0"

@@ -39,6 +39,39 @@
 	return image;
 }
 
+
++ (UIImage *)createNonInterpolatedUIImageFormStr:(NSString*)string size:(CGFloat)size {
+    // 1.实例化二维码滤镜
+    CIFilter *filter = [CIFilter filterWithName:@"CIQRCodeGenerator"];
+    // 2.恢复滤镜的默认属性 (因为滤镜有可能保存上一次的属性)
+    [filter setDefaults];
+    // 3.将字符串转换成NSdata
+    NSData *data  = [string dataUsingEncoding:NSUTF8StringEncoding];
+    // 4.通过KVO设置滤镜, 传入data, 将来滤镜就知道要通过传入的数据生成二维码
+    [filter setValue:data forKey:@"inputMessage"];
+    // 5.生成二维码
+    CIImage *outputImage = [filter outputImage];
+    CGRect extent = CGRectIntegral(outputImage.extent);
+    CGFloat scale = MIN(size/CGRectGetWidth(extent), size/CGRectGetHeight(extent));
+    
+    // 1.创建bitmap;
+    size_t width = CGRectGetWidth(extent) * scale;
+    size_t height = CGRectGetHeight(extent) * scale;
+    CGColorSpaceRef cs = CGColorSpaceCreateDeviceGray();
+    CGContextRef bitmapRef = CGBitmapContextCreate(nil, width, height, 8, 0, cs, (CGBitmapInfo)kCGImageAlphaNone);
+    CIContext *context = [CIContext contextWithOptions:nil];
+    CGImageRef bitmapImage = [context createCGImage:outputImage fromRect:extent];
+    CGContextSetInterpolationQuality(bitmapRef, kCGInterpolationNone);
+    CGContextScaleCTM(bitmapRef, scale, scale);
+    CGContextDrawImage(bitmapRef, extent, bitmapImage);
+    
+    // 2.保存bitmap到图片
+    CGImageRef scaledImage = CGBitmapContextCreateImage(bitmapRef);
+    CGContextRelease(bitmapRef);
+    CGImageRelease(bitmapImage);
+    return [UIImage imageWithCGImage:scaledImage];
+}
+
 @end
 
 @implementation UIImage (bundleRes)
@@ -93,6 +126,25 @@
 	return self;
 }
 
++ (void)colorChangeWithStartColor:(UIColor *)startColor endColor:(UIColor*)endColor viewFrame:(CGRect)frame view:(UIView*)view alpha:(CGFloat)alpha {
+    //  创建 CAGradientLayer 对象
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    //  设置 gradientLayer 的 Frame
+    gradientLayer.frame = frame;
+    //  创建渐变色数组，需要转换为CGColor颜色
+    UIColor * color1 = startColor;
+    UIColor * color2 = endColor;
+    gradientLayer.colors = @[(id)color1.CGColor,
+                             (id)color2.CGColor];
+    //  设置颜色变化点，取值范围 0.0~1.0
+    //  gradientLayer.locations = @[@0 ,@1];
+    //  设置渐变颜色方向，左上点为(0,0), 右下点为(1,1)
+    gradientLayer.startPoint = CGPointMake(0, 0);
+    gradientLayer.endPoint = CGPointMake(0, 1);
+    view.alpha = alpha;
+    //  添加渐变色到创建的 UIView 上去
+    [view.layer addSublayer:gradientLayer];
+}
 @end
 
 @implementation UIImage (tool)
@@ -280,5 +332,50 @@
 	return fullPathToFile;
 }
 
+
+@end
+@implementation UIImage (compress)
++ (NSData *)compressWithMaxLength:(NSUInteger)maxLength imageDate:(NSData *)imageData{
+    // Compress by quality
+    CGFloat compression = 1;
+    //NSLog(@"Before compressing quality, image size = %ld KB",data.length/1024);
+    if (imageData.length < maxLength) return imageData;
+    
+    CGFloat max = 1;
+    CGFloat min = 0;
+    for (int i = 0; i < 6; ++i) {
+        compression = (max + min) / 2;
+        //        imageData = UIImageJPEGRepresentation(self, compression);
+        //NSLog(@"Compression = %.1f", compression);
+        //NSLog(@"In compressing quality loop, image size = %ld KB", data.length / 1024);
+        if (imageData.length < maxLength * 0.9) {
+            min = compression;
+        } else if (imageData.length > maxLength) {
+            max = compression;
+        } else {
+            break;
+        }
+    }
+    //NSLog(@"After compressing quality, image size = %ld KB", data.length / 1024);
+    if (imageData.length < maxLength) return imageData;
+    UIImage *resultImage = [UIImage imageWithData:imageData];
+    // Compress by size
+    NSUInteger lastDataLength = 0;
+    while (imageData.length > maxLength && imageData.length != lastDataLength) {
+        lastDataLength = imageData.length;
+        CGFloat ratio = (CGFloat)maxLength / imageData.length;
+        //NSLog(@"Ratio = %.1f", ratio);
+        CGSize size = CGSizeMake((NSUInteger)(resultImage.size.width * sqrtf(ratio)),
+                                 (NSUInteger)(resultImage.size.height * sqrtf(ratio))); // Use NSUInteger to prevent white blank
+        UIGraphicsBeginImageContext(size);
+        [resultImage drawInRect:CGRectMake(0, 0, size.width, size.height)];
+        resultImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        imageData = UIImageJPEGRepresentation(resultImage, compression);
+        //NSLog(@"In compressing size loop, image size = %ld KB", data.length / 1024);
+    }
+    //NSLog(@"After compressing size loop, image size = %ld KB", data.length / 1024);
+    return imageData;
+}
 
 @end

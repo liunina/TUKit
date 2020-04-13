@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param size 图片大小（如果条码的长度比较长，分辨率设置要高一些）
 + (UIImage *)barcodeImageWithContent:(NSString *)content imageSize:(CGSize)size;
 
++ (UIImage*)createNonInterpolatedUIImageFormStr:(NSString*)string size:(CGFloat)size;
 @end
 
 @interface UIImage (bundleRes)
@@ -30,6 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIImage (TColor)
 - (UIImage *)imageTintedWithColor:(UIColor *)color;
 - (UIImage *)imageTintedWithColor:(UIColor *)color fraction:(CGFloat)fraction;
+
+/// 颜色渐变 起始颜色 ===> 结束颜色
++ (void)colorChangeWithStartColor:(UIColor *)startColor endColor:(UIColor*)endColor viewFrame:(CGRect)frame view:(UIView*)view alpha:(CGFloat)alpha;
 @end
 
 @interface UIImage (tool)
@@ -71,5 +75,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-
+@interface UIImage (compress)
++ (NSData *)compressWithMaxLength:(NSUInteger)maxLength imageDate:(NSData *)imageData;
+@end
 NS_ASSUME_NONNULL_END

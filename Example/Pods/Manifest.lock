@@ -6,41 +6,41 @@ PODS:
     - SDWebImage/Core (= 5.7.0)
   - SDWebImage/Core (5.7.0)
   - Specta (1.0.7)
-  - TUKit (0.1.5):
-    - TUKit/Alert (= 0.1.5)
-    - TUKit/CollectionView (= 0.1.5)
-    - TUKit/Color (= 0.1.5)
-    - TUKit/Font (= 0.1.5)
-    - TUKit/Image (= 0.1.5)
-    - TUKit/ImageView (= 0.1.5)
-    - TUKit/Label (= 0.1.5)
-    - TUKit/Macro (= 0.1.5)
-    - TUKit/TableView (= 0.1.5)
-    - TUKit/TextView (= 0.1.5)
-    - TUKit/View (= 0.1.5)
-    - TUKit/ViewController (= 0.1.5)
-  - TUKit/Alert (0.1.5):
+  - TUKit (0.1.6):
+    - TUKit/Alert (= 0.1.6)
+    - TUKit/CollectionView (= 0.1.6)
+    - TUKit/Color (= 0.1.6)
+    - TUKit/Font (= 0.1.6)
+    - TUKit/Image (= 0.1.6)
+    - TUKit/ImageView (= 0.1.6)
+    - TUKit/Label (= 0.1.6)
+    - TUKit/Macro (= 0.1.6)
+    - TUKit/TableView (= 0.1.6)
+    - TUKit/TextView (= 0.1.6)
+    - TUKit/View (= 0.1.6)
+    - TUKit/ViewController (= 0.1.6)
+  - TUKit/Alert (0.1.6):
     - TUKit/ViewController
-  - TUKit/CollectionView (0.1.5):
+  - TUKit/CollectionView (0.1.6):
     - Masonry
-  - TUKit/Color (0.1.5)
-  - TUKit/Font (0.1.5)
-  - TUKit/Image (0.1.5)
-  - TUKit/ImageView (0.1.5):
+  - TUKit/Color (0.1.6)
+  - TUKit/Font (0.1.6)
+  - TUKit/Image (0.1.6)
+  - TUKit/ImageView (0.1.6):
     - SDWebImage
     - TUKit/Color
     - TUKit/Image
-  - TUKit/Label (0.1.5)
-  - TUKit/Macro (0.1.5)
-  - TUKit/TableView (0.1.5):
+  - TUKit/Label (0.1.6)
+  - TUKit/Macro (0.1.6)
+  - TUKit/TableView (0.1.6):
     - Masonry
-  - TUKit/TextView (0.1.5)
-  - TUKit/View (0.1.5):
+  - TUKit/TextView (0.1.6)
+  - TUKit/View (0.1.6):
     - Masonry
     - MBProgressHUD
     - TUKit/Color
     - TUKit/Font
-  - TUKit/ViewController (0.1.5):
+  - TUKit/ViewController (0.1.6):
     - TUKit/View
 
 DEPENDENCIES:
@@ -66,7 +66,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SDWebImage: a99471f452bdfa0ca52ddf5b1adf2b61cab1d1eb
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  TUKit: 1c4fcd244d8a53dc46a76b8e0825a23cf0d2a66e
+  TUKit: 79445b261152d032b28ae6e391a955f5f8da8177
 
 PODFILE CHECKSUM: e284d086a4be95e0464643d9d533de6b80706188
 
