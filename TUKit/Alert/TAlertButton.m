@@ -64,7 +64,7 @@
 		UIButton *button = [[UIButton alloc] initWithFrame:self.bounds];
 		button.titleLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:16];
 		[button setBackgroundColor:[UIColor clearColor]];
-		[button setTitleColor:[UIColor darkTextColor] forState:UIControlStateNormal];
+		[button setTitleColor:[TColor colorWithRGB:0xE54538] forState:UIControlStateNormal];
 		
 		[button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
 		[self addSubview:button];

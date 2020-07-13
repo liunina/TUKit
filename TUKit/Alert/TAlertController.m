@@ -24,16 +24,22 @@
 @property (nonatomic, strong) UIView *bottomView;
 @property (nonatomic, strong) UIView *lineView;
 @property (nonatomic, strong) NSMutableArray <TAlertAction *> *actions;
+
+@property (nonatomic, strong) NSString *text;
+@property (nonatomic, strong) NSString *detailText;
+
+@property (nonatomic, strong) NSAttributedString *attributedText;
+@property (nonatomic, strong) NSAttributedString *attributedDetailText;
 @end
 
 @implementation TAlertController
-@synthesize textFont = _theTextFont;
-@synthesize textColor = _theTextColor;
-@synthesize detailTextFont = _theDetailTextFont;
-@synthesize detailTextColor = _theDetailTextColor;
-
 + (instancetype)alertControllerWithTitle:(nullable NSString *)title message:(nullable NSString *)message {
 	TAlertController *alertVC = [[TAlertController alloc] initWithTitle:title message:message];
+	return alertVC;
+}
+
++ (instancetype)alertControllerWithAttributedTitle:(nullable NSAttributedString *)attributedTitle attributedMessage:(nullable NSAttributedString *)attributedMessage {
+	TAlertController *alertVC = [[TAlertController alloc] initWithAttributedTitle:attributedTitle attributedMessage:attributedMessage];
 	return alertVC;
 }
 
@@ -55,17 +61,37 @@
 	return self;
 }
 
+- (instancetype)initWithAttributedTitle:(NSAttributedString *)title attributedMessage:(NSAttributedString *)message {
+	self = [self init];
+	if (self) {
+		self.attributedText = title;
+		self.attributedDetailText = message;
+	}
+	return self;
+}
+
+
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	self.textLabel.text = self.text;
+	
+	if (self.text) {
+		self.textLabel.text = self.text;
+	}else if (self.attributedText) {
+		self.textLabel.attributedText = self.attributedText;
+	}
+	
 	if (self.detailText) {
 		self.detailLabel.text = self.detailText;
+	}else if (self.attributedDetailText) {
+		self.detailLabel.attributedText = self.attributedDetailText;
 	}
+	
+	
 	__weak typeof(self) ws = self;
-	if (self.actions.count >1) {
+	if (self.actions.count > 1) {
 		
 		[self.lineView mas_updateConstraints:^(MASConstraintMaker *make) {
-			make.width.mas_equalTo(1);
+			make.width.mas_equalTo(.5);
 		}];
 		
 		NSMutableArray *buttons = @[].mutableCopy;
@@ -119,31 +145,6 @@
 	[self.actions addObject:action];
 }
 
-#pragma mark - setter
-- (void)setText:(NSString *)text {
-	_text = text;
-}
-
-- (void)setTextFont:(UIFont *)textFont {
-	_theTextFont = textFont;
-}
-
-- (void)setTextColor:(UIColor *)textColor {
-	_theTextColor = textColor;
-}
-
-- (void)setDetailText:(NSString *)detailText {
-	_detailText = detailText;
-}
-
-- (void)setDetailTextFont:(UIFont *)detailTextFont {
-	_theDetailTextFont = detailTextFont;
-}
-
-- (void)setDetailTextColor:(UIColor *)detailTextColor {
-	_theDetailTextColor = detailTextColor;
-}
-
 #pragma mark - getter
 - (UIView *)contentView {
 	if (!_contentView) {
@@ -189,7 +190,7 @@
 		}];
 		
 		[view mas_makeConstraints:^(MASConstraintMaker *make) {
-			make.top.equalTo(self.detailLabel.mas_bottom).offset(10);
+			make.top.equalTo(self.detailLabel.mas_bottom).offset(24);
 			make.left.equalTo(self.contentView.mas_left).offset(0);
 			make.right.equalTo(self.contentView.mas_right).offset(0);
 			make.height.mas_equalTo(51);
@@ -206,10 +207,10 @@
 		view.backgroundColor = [TColor colorWithRGB:0xBAB2B2];
 		[self.bottomView addSubview:view];
 		[view mas_makeConstraints:^(MASConstraintMaker *make) {
-			make.top.equalTo(view.mas_top).offset(1);
-			make.bottom.equalTo(view.mas_bottom).offset(0);
-			make.centerX.equalTo(view.mas_centerX).offset(0);
-			make.width.mas_equalTo(0.5);
+			make.top.equalTo(self.bottomView.mas_top).offset(0.5);
+			make.bottom.equalTo(self.bottomView.mas_bottom).offset(0);
+			make.centerX.equalTo(self.bottomView.mas_centerX).offset(0);
+			make.width.mas_equalTo(0.3);
 		}];
 		_lineView = view;
 	}
@@ -227,9 +228,9 @@
 		label.text = @"";
 		[self.contentView addSubview:label];
 		[label mas_makeConstraints:^(MASConstraintMaker *make) {
-			make.top.equalTo(self.contentView.mas_top).offset(20);
-			make.left.equalTo(self.contentView.mas_left).offset(20);
-			make.right.equalTo(self.contentView.mas_right).offset(-20);
+			make.top.equalTo(self.contentView.mas_top).offset(18);
+			make.left.equalTo(self.contentView.mas_left).offset(39.5);
+			make.right.equalTo(self.contentView.mas_right).offset(-39.5);
 			make.height.mas_greaterThanOrEqualTo(16);
 		}];
 		_textLabel = label;
@@ -243,12 +244,12 @@
 		label.backgroundColor = [UIColor clearColor];
 		label.textColor = self.detailTextColor;
 		label.font = self.detailTextFont;
-		label.textAlignment = NSTextAlignmentCenter;
+		label.textAlignment = NSTextAlignmentLeft;
 		label.numberOfLines = 0;
 		label.text = @"";
 		[self.contentView addSubview:label];
 		[label mas_makeConstraints:^(MASConstraintMaker *make) {
-			make.top.equalTo(self.textLabel.mas_bottom).offset(12);
+			make.top.equalTo(self.textLabel.mas_bottom).offset(14);
 			make.left.equalTo(self.textLabel.mas_left).offset(0);
 			make.right.equalTo(self.textLabel.mas_right).offset(0);
 			make.height.mas_greaterThanOrEqualTo(0);
@@ -268,28 +269,28 @@
 
 - (UIFont *)textFont {
 	if (!_theTextFont) {
-		_theTextFont = [UIFont fontWithName:@"PingFangSC-Medium" size:16];
+		_theTextFont = [UIFont fontWithName:@"PingFangSC-Regular" size:16];
 	}
 	return _theTextFont;
 }
 
 - (UIFont *)detailTextFont {
 	if (!_theDetailTextFont) {
-		_theDetailTextFont = [UIFont fontWithName:@"PingFangSC-Medium" size:14];;
+		_theDetailTextFont = [UIFont fontWithName:@"PingFangSC-Regular" size:14];;
 	}
 	return _theDetailTextFont;
 }
 
 - (UIColor *)textColor {
 	if (!_theTextColor) {
-		_theTextColor = [TColor colorWithRGB:0x867B7B];
+		_theTextColor = [TColor colorWithRGB:0x210201];
 	}
 	return _theTextColor;
 }
 
 - (UIColor *)detailTextColor {
 	if (!_theDetailTextColor) {
-		_theDetailTextColor = [TColor colorWithRGB:0x210201];
+		_theDetailTextColor = [TColor colorWithRGB:0x867B7B];
 	}
 	return _theDetailTextColor;
 }

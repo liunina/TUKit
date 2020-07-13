@@ -12,15 +12,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TAlertController : UIViewController
-@property (nonatomic, strong, nullable) NSString *text;
-@property (nonatomic, strong, nullable) UIFont *textFont;
-@property (nonatomic, strong, nullable) UIColor *textColor;
-
-@property (nonatomic, strong, nullable) NSString *detailText;
-@property (nonatomic, strong, nullable) UIFont *detailTextFont;
-@property (nonatomic, strong, nullable) UIColor *detailTextColor;
-
 + (instancetype)alertControllerWithTitle:(nullable NSString *)title message:(nullable NSString *)message;
+
++ (instancetype)alertControllerWithAttributedTitle:(nullable NSAttributedString *)attributedTitle attributedMessage:(nullable NSAttributedString *)attributedMessage;
+
 - (void)addAction:(TAlertAction *)action;
 @end
 
