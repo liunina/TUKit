@@ -5,77 +5,74 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.010152">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000367">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: default_platform" time="0.001372">
+      <testcase classname="fastlane.lanes" name="01: default_platform" time="0.000309">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: import_from_git" time="2.053711">
+      <testcase classname="fastlane.lanes" name="02: import_from_git" time="0.209231">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: git_pull" time="0.588883">
+      <testcase classname="fastlane.lanes" name="03: git_pull" time="0.119683">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: ensure_git_branch" time="0.010656">
+      <testcase classname="fastlane.lanes" name="04: ensure_git_branch" time="0.010756">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.003107">
+      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.002403">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: cocoapods" time="45.738867">
+      <testcase classname="fastlane.lanes" name="06: cocoapods" time="65.012123">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_add" time="0.112015">
+      <testcase classname="fastlane.lanes" name="07: git_add" time="0.099546">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: git_commit" time="0.056452">
+      <testcase classname="fastlane.lanes" name="08: git_commit" time="0.067424">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: push_to_git_remote" time="4.208991">
+      <testcase classname="fastlane.lanes" name="09: push_to_git_remote" time="1.787288">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: git_tag_exists" time="0.011379">
+      <testcase classname="fastlane.lanes" name="10: git_tag_exists" time="0.011883">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: add_git_tag" time="0.017711">
+      <testcase classname="fastlane.lanes" name="11: add_git_tag" time="0.017059">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="12: push_git_tags" time="2.091598">
+      <testcase classname="fastlane.lanes" name="12: push_git_tags" time="1.914595">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="13: pod_lib_lint" time="87.843701">
+      <testcase classname="fastlane.lanes" name="13: pod_lib_lint" time="0.483801">
         
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="14: pod_push" time="116.747575">
+          <failure message="/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/runner.rb:253:in `block in execute_action'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../var/folders/df/g9gl52n96z5bz8r9pzq8b3mm0000gn/T/fl_clone20200713-84734-m5borx/FastlaneStandardSetup.git/Fastfile:86:in `block (2 levels) in parsing_binding'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/commands_generator.rb:352:in `run'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/gems/fastlane-2.151.2/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/bin/fastlane:23:in `load'&#10;/Users/liunian/.rvm/gems/ruby-2.6.3/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'bundle exec pod lib lint --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,https://github.com/liunina/NLSpecs.git'' was 1 instead of 0.&#10;bundler: failed to load command: pod (/Users/liunian/.rvm/gems/ruby-2.6.3/bin/pod)&#10;Bundler::GemNotFound: Could not find fastlane-2.144.0 in any of the sources&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/spec_set.rb:86:in `block in materialize'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/spec_set.rb:80:in `map!'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/spec_set.rb:80:in `materialize'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/definition.rb:170:in `specs'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/definition.rb:237:in `specs_for'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/definition.rb:226:in `requested_specs'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/runtime.rb:101:in `block in definition_method'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/runtime.rb:20:in `setup'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler.rb:149:in `setup'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/setup.rb:20:in `block in &lt;top (required)&gt;'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/ui/shell.rb:136:in `with_level'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/ui/shell.rb:88:in `silence'&#10;  /Users/liunian/.rvm/gems/ruby-2.6.3/gems/bundler-2.1.4/lib/bundler/setup.rb:20:in `&lt;top (required)&gt;'&#10;" />
         
       </testcase>
     
