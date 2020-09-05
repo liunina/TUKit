@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
   s.name             = 'TUKit'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of TUKit.'
 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'http://nas.iliunian.com:82/apple/TUKit'
+  s.homepage         = 'http://nas.iliunian.com:88/T11/TUKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'i19850511@gmail.com' => 'i19850511@gmail.com' }
-  s.source           = { :git => 'http://nas.iliunian.com:82/apple/TUKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'http://nas.iliunian.com:88/T11/TUKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
