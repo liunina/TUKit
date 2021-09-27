@@ -69,16 +69,6 @@
 - (UILabel *)placeholderLabel {
     UILabel *label = objc_getAssociatedObject(self, @selector(placeholderLabel));
     if (!label) {
-        NSAttributedString *originalText = self.attributedText;
-        
-        //ios 7 越狱设备，点击输入框可能会引起闪退
-        //此处在主线程更新text
-        dispatch_async(dispatch_get_main_queue(), ^{
-            self.text = @""; // lazily set font of `UITextView`.
-        });
-        
-        self.attributedText = originalText;
-
         label = [[UILabel alloc] init];
         label.textColor = [self.class defaultPlaceholderColor];
         label.numberOfLines = 0;
