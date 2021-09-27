@@ -5,74 +5,84 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000485">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000533">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: default_platform" time="0.000296">
+      <testcase classname="fastlane.lanes" name="01: default_platform" time="0.000534">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: import_from_git" time="0.482146">
+      <testcase classname="fastlane.lanes" name="02: import_from_git" time="0.215049">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: git_pull" time="0.300854">
+      <testcase classname="fastlane.lanes" name="03: git_pull" time="0.193818">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: ensure_git_branch" time="0.014732">
+      <testcase classname="fastlane.lanes" name="04: ensure_git_branch" time="0.015709">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.003054">
+      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.002643">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: cocoapods" time="56.057566">
+      <testcase classname="fastlane.lanes" name="06: cocoapods" time="4.925381">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_add" time="0.040831">
+      <testcase classname="fastlane.lanes" name="07: git_add" time="0.02636">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: git_commit" time="0.108315">
+      <testcase classname="fastlane.lanes" name="08: git_commit" time="0.044834">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: push_to_git_remote" time="1.791206">
+      <testcase classname="fastlane.lanes" name="09: push_to_git_remote" time="1.216757">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: git_tag_exists" time="0.015434">
+      <testcase classname="fastlane.lanes" name="10: git_tag_exists" time="0.015588">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: add_git_tag" time="0.02279">
+      <testcase classname="fastlane.lanes" name="11: remove_git_tag" time="1.312868">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="12: push_git_tags" time="1.407776">
+      <testcase classname="fastlane.lanes" name="12: add_git_tag" time="0.021674">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="13: pod_lib_lint" time="0.549542">
+      <testcase classname="fastlane.lanes" name="13: push_git_tags" time="1.20584">
         
-          <failure message="/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../var/folders/df/g9gl52n96z5bz8r9pzq8b3mm0000gn/T/fl_clone20210927-31424-1wzvtxt/FastlaneStandardSetup.git/Fastfile:86:in `block (2 levels) in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/commands_generator.rb:109:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:117:in `run!'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/commands_generator.rb:353:in `run'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'bundle exec pod lib lint --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,https://github.com/liunina/NLSpecs.git'' was 1 instead of 0.&#10;bundler: failed to load command: pod (/usr/local/lib/ruby/gems/2.7.0/bin/pod)&#10;Bundler::GemNotFound: Could not find aws-partitions-1.364.0 in any of the sources&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/spec_set.rb:86:in `block in materialize'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/spec_set.rb:80:in `map!'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/spec_set.rb:80:in `materialize'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/definition.rb:170:in `specs'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/definition.rb:237:in `specs_for'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/definition.rb:226:in `requested_specs'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/runtime.rb:101:in `block in definition_method'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/runtime.rb:20:in `setup'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler.rb:149:in `setup'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/setup.rb:20:in `block in &lt;top (required)&gt;'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/ui/shell.rb:136:in `with_level'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/ui/shell.rb:88:in `silence'&#10;  /usr/local/Cellar/ruby@2.7/2.7.2/lib/ruby/2.7.0/bundler/setup.rb:20:in `&lt;top (required)&gt;'&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="14: pod_lib_lint" time="92.224559">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="15: pod_push" time="70.874046">
+        
+          <failure message="/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;../../../../../../var/folders/df/g9gl52n96z5bz8r9pzq8b3mm0000gn/T/fl_clone20210927-31693-1rb5bos/FastlaneStandardSetup.git/Fastfile:91:in `block (2 levels) in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/commands_generator.rb:109:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:117:in `run!'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/commands_generator.rb:353:in `run'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off'&#10;/usr/local/lib/ruby/gems/2.7.0/gems/fastlane-2.194.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod repo push NLSpecs 'TUKit.podspec' --sources='https://github.com/CocoaPods/Specs.git,https://github.com/liunina/NLSpecs.git' --allow-warnings' was 1 instead of 0.&#10;&#10;Validating spec&#10; -&gt; TUKit -&gt; TUKit (0.1.9)&#10;    - WARN  | summary: The summary is not meaningful.&#10;    - WARN  | [iOS] file patterns: The `public_header_files` pattern did not match any file.&#10;    - NOTE  | [TUKit/Macro, TUKit/Color, TUKit/Font, and more...] xcodebuild:  note: Using new build system&#10;    - NOTE  | [TUKit/Macro, TUKit/Color, TUKit/Font, and more...] xcodebuild:  note: Using codesigning identity override: -&#10;    - NOTE  | [TUKit/Macro, TUKit/Color, TUKit/Font, and more...] xcodebuild:  note: Build preparation complete&#10;    - NOTE  | [TUKit/Macro, TUKit/Color, TUKit/Font, and more...] xcodebuild:  note: Planning&#10;    - NOTE  | [TUKit/Macro, TUKit/Color, TUKit/Font, and more...] xcodebuild:  note: Building targets in parallel&#10;    - NOTE  | [TUKit/View, TUKit/TableView, TUKit/CollectionView, and more...] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 9.0 to 15.0.99. (in target 'Masonry' from project 'Pods')&#10;    - WARN  | [TUKit/Image,TUKit/ImageView] xcodebuild:  TUKit/TUKit/Image/UIImage+Addition.m:286:15: warning: empty paragraph passed to '@param' command [-Wdocumentation]&#10;    - WARN  | [TUKit/Image,TUKit/ImageView] xcodebuild:  TUKit/TUKit/Image/UIImage+Addition.m:288:11: warning: empty paragraph passed to '@return' command [-Wdocumentation]&#10;    - NOTE  | [TUKit/Macro, TUKit/Color, TUKit/Font, and more...] xcodebuild:  warning: Skipping code signing because the target does not have an Info.plist file and one is not being generated automatically. (in target 'App' from project 'App')&#10;    - NOTE  | [TUKit/View, TUKit/ViewController, TUKit/Alert, and more...] xcodebuild:  Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 8.0, but the range of supported deployment target versions is 9.0 to 15.0.99. (in target 'MBProgressHUD' from project 'Pods')&#10;&#10;Updating the `NLSpecs' repo&#10;&#10;Adding the spec to the `NLSpecs' repo&#10; - [Update] TUKit (0.1.9)&#10;&#10;Pushing the `NLSpecs' repo&#10;[!] /usr/bin/git -C /Users/liunian/.cocoapods/repos/NLSpecs push origin HEAD&#10;&#10;remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.&#10;remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.&#10;fatal: Authentication failed for 'https://github.com/liunina/NLSpecs.git/'&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;&#10;[!] 'TUKit' uses the unencrypted 'http' protocol to transfer the Pod. Please be sure you're in a safe network with only trusted hosts. Otherwise, please reach out to the library author to notify them of this security issue.&#10;" />
         
       </testcase>
     
