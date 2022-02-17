@@ -1,9 +1,9 @@
 {
   "name": "TUKit",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "summary": "A short description of TUKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "http://nas.iliunian.com:88/T11/TUKit",
+  "homepage": "https://github.com/liunina/TUKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "i19850511@gmail.com": "i19850511@gmail.com"
   },
   "source": {
-    "git": "http://nas.iliunian.com:88/T11/TUKit.git",
-    "tag": "0.1.9"
+    "git": "https://github.com/liunina/TUKit.git",
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "9.0"
