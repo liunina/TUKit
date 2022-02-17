@@ -5,82 +5,24 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000458">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000324">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: default_platform" time="0.000351">
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000274">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: import_from_git" time="0.248775">
+      <testcase classname="fastlane.lanes" name="2: import_from_git" time="1.500088">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: git_pull" time="0.1929">
+      <testcase classname="fastlane.lanes" name="3: git_pull" time="1.151103">
         
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="04: ensure_git_branch" time="0.016146">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.002567">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="06: cocoapods" time="3.00956">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="07: git_add" time="0.027388">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="08: git_commit" time="0.053124">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="09: push_to_git_remote" time="1.541258">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="10: git_tag_exists" time="0.014252">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="11: remove_git_tag" time="1.155388">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="12: add_git_tag" time="0.023571">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="13: push_git_tags" time="1.152344">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="14: pod_lib_lint" time="71.475657">
-        
-      </testcase>
-    
-      
-      <testcase classname="fastlane.lanes" name="15: pod_push" time="93.310897">
+          <failure message="/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/runner.rb:229:in `chdir&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/runner.rb:229:in `execute_action&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing&apos;&#10;../../../../../../var/folders/df/g9gl52n96z5bz8r9pzq8b3mm0000gn/T/fl_clone20220217-50172-yxixav/FastlaneStandardSetup.git/Fastfile:24:in `block (2 levels) in parsing_binding&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/lane.rb:33:in `call&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/runner.rb:49:in `block in execute&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/runner.rb:45:in `chdir&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/runner.rb:45:in `execute&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/commands_generator.rb:109:in `block (2 levels) in run&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/commands_generator.rb:353:in `run&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/commands_generator.rb:42:in `start&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off&apos;&#10;/Users/liunian/.rvm/gems/ruby-3.0.0/gems/fastlane-2.204.3/bin/fastlane:23:in `&lt;top (required)&gt;&apos;&#10;/usr/local/opt/ruby/bin/fastlane:25:in `load&apos;&#10;/usr/local/opt/ruby/bin/fastlane:25:in `&lt;main&gt;&apos;&#10;&#10;Exit status of command &apos;git pull &amp;&amp; git fetch --tags&apos; was 1 instead of 0.&#10;There is no tracking information for the current branch.&#10;Please specify which branch you want to merge with.&#10;See git-pull(1) for details.&#10;&#10;    git pull &lt;remote&gt; &lt;branch&gt;&#10;&#10;If you wish to set tracking information for this branch you can do so with:&#10;&#10;    git branch --set-upstream-to=origin/&lt;branch&gt; master&#10;&#10;" />
         
       </testcase>
     
