@@ -2063,8 +2063,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2458,22 +2458,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E62CF6EFAEC2C67CA9725C89EA39831 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED459647D508CCDF0C90A101256EB2E2 /* TUKit.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUKit";
-				IBSC_MODULE = TUKit;
-				INFOPLIST_FILE = "Target Support Files/TUKit/ResourceBundle-TUView-TUKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = TUView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		24A86C94BEEADB4F2CFA03AC567C5CFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61C1D77B4D85F574E514D87B7EF4DE9D /* Specta.release.xcconfig */;
@@ -2662,10 +2646,11 @@
 			};
 			name = Debug;
 		};
-		5DDA8956421576BCECD965A6B67381C0 /* Debug */ = {
+		367EFF69A4227928CBC5DECA46B5CEA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ABA3A907AF3656D8FFE933D28936A57C /* TUKit.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUKit";
 				IBSC_MODULE = TUKit;
 				INFOPLIST_FILE = "Target Support Files/TUKit/ResourceBundle-TUView-TUKit-Info.plist";
@@ -2771,6 +2756,23 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6F040CBE6C0E8892CD84EED8AFC7B3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED459647D508CCDF0C90A101256EB2E2 /* TUKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUKit";
+				IBSC_MODULE = TUKit;
+				INFOPLIST_FILE = "Target Support Files/TUKit/ResourceBundle-TUView-TUKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TUView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		788A14E6B98407001FE2F6D461BC389E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3201,8 +3203,8 @@
 		DC01CECB905B522785209AFCF86765ED /* Build configuration list for PBXNativeTarget "TUKit-TUView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5DDA8956421576BCECD965A6B67381C0 /* Debug */,
-				0E62CF6EFAEC2C67CA9725C89EA39831 /* Release */,
+				367EFF69A4227928CBC5DECA46B5CEA8 /* Debug */,
+				6F040CBE6C0E8892CD84EED8AFC7B3BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

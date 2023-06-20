@@ -10,8 +10,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (IB)
+/// 可以在xib里面直接设置的:圆角
+@property (nonatomic, assign) IBInspectable CGFloat cornerRadius;
 
-@property (nonatomic) IBInspectable CGFloat cornerRadius;
+/// 可以在xib里面直接设置的:边线宽度
+@property (nonatomic, assign) IBInspectable CGFloat borderWidth;
+ 
+/// 可以在xib里面直接设置的:边线颜色
+@property (nonatomic, assign) IBInspectable UIColor *borderColor;
 
 @end
 
